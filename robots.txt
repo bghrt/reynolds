@@ -1,0 +1,5 @@
+# robots.txt for http://library.reynolds.edu/
+
+User-agent: *
+Disallow: /legacy/ # will take down soon
+Disallow: /bookdiscussion/ # will take down soon

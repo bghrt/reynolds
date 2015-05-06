@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* CSS Document
+
+Written by Amanda Hartman; borrowed heavily from UNC Library page
+
+Last updated: July 2010
+
+*/
+
+.mobile { 
+	display: block; 
+	padding: 2em;
+	border: medium #00305F solid;
+}
+
+.mobile-link {
+    font-size: 24px;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}

@@ -1,0 +1,13 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1"><p>MLA is a little wonky and for dates, the day always goes before the month.</p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

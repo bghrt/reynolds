@@ -1,0 +1,13 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<div class="statement statement1"><img src="images/year.png" width="400" alt="Authors Name" /></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

@@ -1,0 +1,588 @@
+.SS_PageBody{width:985px!important;}
+
+body{width:985px!important; margin-left:auto!important; margin-right:auto!important;}
+
+
+#Reynolds {width:135px; height:100%; padding-top:10px;}
+.nolist {list-style-type:none;}
+span.guidetitle {font-size:55px;}
+
+a:link, a:hover, a:visited{color:black;}
+
+#apDiv4 {
+position: absolute;
+width: 175px;
+height: 45px;
+z-index: 50;
+left: 540px;
+top: 20px;
+}
+#tabsI a,   #tabsI a span {
+outline: 0;
+color: #ffffff !important;
+padding-left:6px;
+margin-right:3px;
+font-size:17px;
+font-weight:normal;
+margin-bottom:1px;
+border-top-left-radius:.3em;
+border-top-right-radius:.3em;
+background-color:#a32638;
+background-image:url(http://library.Reynolds.edu/images/libguides/libguidestabs.png);
+
+}
+li#current a, li#current a span {background:#8c0000; color:black; }
+#tabsI a:hover {text-decoration:underline; background:#a32638; width:auto; }
+
+#tabsI a {background-color:#a32638;
+
+
+}
+#tabsI a span {background:transparent  url(http://library.Reynolds.edu/images/libguides/libguidestabs.png) no-repeat scroll right top; }
+#tabsI {
+    border-bottom: 0px solid #ffffff;
+}
+#guide_tab_title_bar{
+background: #e0e1dd;
+    color: #a32638;
+    height: 25px;
+    margin-bottom: 15px;
+    padding: 1px 5px 0 10px;
+border-radius:8px;
+border:1px solid #a32638;}
+#guide_tab_title_bar a {color:#a32638;}
+
+
+p {font-family:font-family: 'Open Sans', sans-serif;}
+body, .innerbox {
+	font-family: 'Open Sans', sans-serif;
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+        background-color:white;
+margin-left:auto;
+margin-right:auto;
+} 
+#subheader{
+	background-color: #8c0000;
+	width: auto;
+	height:100px;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+
+}
+.margin20px {
+	margin-left: 41px;
+	float: none;
+}
+
+
+#navigation ul
+	{font-family:font-family: 'Open Sans', sans-serif;;
+	font-size:19px;
+	margin:0px;
+	padding:0;
+	list-style:none;
+	z-index:899;}
+#navigation ul li
+	{display:block;
+	position:relative; 
+float:left;
+	}
+#navigation li ul
+	{display:none}
+#navigation ul li a
+	{display:block;
+	text-decoration:none;
+	color:#ffffff;
+	margin-left: 22px;
+	padding:10px 10px 10px 10px;
+	
+	white-space:nowrap;
+
+}
+#navigation ul li a:hover
+	{
+	background-color: whitesmoke;  
+z-index:5001; 
+}
+#navigation li:hover ul
+	{display:block;
+	position:absolute}
+#navigation ul li ul li
+	{float:none;
+	font-size:15px; position:relative;
+	
+}
+#navigation li:hover a
+	{background:whitesmoke;
+color:#a32638;  
+
+}
+#navigation li:hover li a:hover
+	{
+	background-color: whitesmoke;
+	color:#8c0000;
+text-decoration:underline; 
+
+
+}
+#navigation {
+	width:985px;
+	height: 38px;
+	background-image: -ms-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, right top, 0, right top, 1012, color-stop(0, #8C0000), color-stop(1, #A32638));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at right top, #8C0000 0%, #A32638 100%);
+	position:relative;
+	z-index:900;
+	margin-top: 3px;
+border-radius:8px;
+margin-bottom:15px;
+}
+
+
+#searchbox form input {border-radius:10px; height: 1.3em;} 
+.btn-default {height:25px; width:50%; color:#a32638; border-radius:5px; background-color:white; border: 1px solid black; margin-left:20%; margin-top:5px;}
+.cf:before, .cf:after {
+	content:"";
+	display:table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {zoom:1; }
+
+#wrapper {
+width:985px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+#header {
+	background-color: #FFFFFF;
+	width: 985px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	position: relative;
+}
+	
+.floatright {
+	float: right;
+}
+.TCC_fontcolor {
+	 font-family: 'Open Sans', sans-serif;;
+	font-size: 14px;
+	color: #A32538;
+}
+
+#apDiv1 {
+	position:absolute;
+	width:295px;
+	height:60px;
+	z-index:1;
+	left: 682px;
+	top: 12px;
+}
+#apDiv2 {
+	position:absolute;
+	width:71px;
+	height:26px;
+	z-index:1;
+	left: 633px;
+	top: 21px;
+}
+a:link, a:hover, a:visited {font-family: 'Open Sans', sans-serif;}
+.subject_link {font-family: 'Open Sans', sans-serif;}
+#apDiv3 {
+	position:absolute;
+	width:528px;
+	height:23px;
+	z-index:1;
+	left: 2px;
+	top: 0px;
+	background-color: #FFF;
+}
+.tahoma {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+.background_red {
+	background-color: #CCC;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	
+	font-weight: bold;
+	
+}
+
+ 
+ 
+#fbtab{
+	right:0px;  /* change this to left: 1px; to put it on the left of the screen */
+	top:295px;
+	height:200px;
+	width:51px;
+	margin:0;
+	padding:0;
+	position:fixed;
+	z-index:1000;
+	background-image: url(http://library.Reynolds.edu/images/libguides/askalibrariantab.png);
+	background-repeat: no-repeat;
+}
+ 
+#fbtab a{
+	display:block;
+	width:100%;
+	height:100%;
+	background-image: url(http://library.Reynolds.edu/images/libguides/askalibrariantab.png);
+}
+#fbtab a:hover{
+	display:block;
+	width:100%;
+	height:100%;
+	background-color: #900;
+	background-image: url(http://library.Reynolds.edu/images/libguides/askalibrariantabhover.png);
+ 
+ 
+#apDiv2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+}
+
+</style>
+<style>
+div#breadcrumbsr a {display:none;
+}
+
+#breadcrumbsl  {color: black;
+margin-top:20px;
+font-size: 11px;
+float: right;
+border-style:solid;
+border-width:1px;
+padding-left:5px;
+padding-right:5px;
+border-radius:5px;
+border-color:#8c0000;
+}
+
+
+#lastupdate {display:inline; margin-bottom: 25px; margin-top:10px; float:right; margin-left:70%; margin-top:15px;}
+span.guidetitle {display:inline; color:#ffffff; font-size:20px; background:#6d8824;padding-left:5px; margin-left:20px; margin-bottom:10px; border-radius:5px; box-shadow: 5px 5px 2px #888888; padding:5px;}
+.guidetitle p {padding-left:10px;}
+
+ul.guide_links {
+margin: 6px 0;
+padding: 0;
+line-height 1.5em;
+}
+a {color:#8c0000;  }
+a:hover{color:#900;}
+
+.stitle {border-bottom: 2px solid #900; }
+
+font: {size:16px source_sans_proregular, Arial, Helvetica, sans-serif;}
+p {font-size:14px;}
+.guideattr span {display:none;}
+.lgsearch { display: none; }
+.column, .floatcols {
+float: left;
+width: 49%;
+padding: 0;
+margin: 0;
+}
+.guidedesc {display:none;}
+.guidetags {display:none;}
+.column-wrapper {
+overflow: hidden;
+}
+
+ul#mylistid{
+width: 100%;
+padding: 0;
+}
+h2 {font-weight:normal;}
+.outerbox  {; border-top-left-radius: 5px;
+border-top-right-radius: 5px; padding:1px; margin-left:5px; margin-right:5px; background-image: -ms-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, right top, 0, right top, 1012, color-stop(0, #8C0000), color-stop(1, #A32638));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(right top, ellipse farthest-corner, #8C0000 0%, #A32638 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at right top, #8C0000 0%, #A32638 100%);  }
+.innerbox {padding:10px;}
+.headerbox h2  { color:#ffffff; background-image:none; font-size:15px; font-weight:normal; margin:0px;  }
+.headerbox {background-image:none;}
+li.subject_link {
+padding:2px 0;
+margin: 2px 6px;
+list-style-type: none;
+font-size: 1.15em !important;
+}
+
+li.subject_link:hover {
+background: #eee;
+cursor: pointer;
+}
+
+
+a.toggle_button {
+text-decoration: none;
+text-align: center;
+color: #666;
+background: #ddd;
+border: 1px solid #ccc;
+font-weight:bold;
+margin: auto 6px auto 0;
+padding:1px 3px;
+display:inline-block;
+width:15px;
+cursor: pointer;
+}
+
+span.toggletext {
+cursor: pointer;
+}
+
+ul.guide_links li {
+margin:3px 3px 3px 26px;
+list-style-type:disc;
+}
+
+ul.guide_links {
+margin: 6px 0;
+padding: 0;
+line-height 1.5em; 
+}
+
+
+.column, .floatcols {
+float: left;
+width: 49%;
+padding: 0;
+margin: 0;
+}
+
+.column-wrapper {
+overflow: hidden;
+}
+
+ul#mylistid{
+width: 100%;
+padding: 0;
+}
+
+li.subject_link {
+padding:2px 0;
+margin: 2px 6px;
+list-style-type: none;
+font-size: 1.15em !important;
+
+}
+
+li.subject_link:hover {
+background: #eee;
+cursor: pointer;
+}
+
+a.toggle_button {
+text-decoration: none;
+text-align: center;
+
+background: #ddd;
+border: 1px solid #ccc;
+font-weight:bold;
+margin: auto 6px auto 0;
+padding:1px 3px;
+display:inline-block;
+width:15px;
+cursor: pointer;
+}
+
+.innerbox ul li {font-size:15px;}
+.headerbox { margin-bottom:5px; margin-top:5px; font:16px;}
+
+span.toggletext {
+cursor: pointer;
+}
+
+ul.guide_links li {
+margin:3px 3px 3px 26px;
+list-style-type:disc;
+}
+
+ul.guide_links {
+margin: 6px 0;
+padding: 0;
+line-height 1.5em; 
+}
+
+#footer {border-top:0px;}
+#cfooter {
+	position: relative;
+	height: 60px;
+	margin-top:5px;
+	padding-top: 5px;
+	text-align: center;
+	background: #a32638;
+	width: 985px;	
+border-radius:8px;
+
+}
+
+.cfooter_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%
+	color: #fff;
+	text-align: center;
+}
+
+#cfooter ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#cfooter li{
+	color: #fff;
+	display: inline;
+	margin: 5px;
+}
+#cfooter p {color:#ffffff; padding-top:7px;}
+#cfooter li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+#cfooter li a:hover {
+	text-decoration: underline;
+}
+
+div#footer_topline {display:none;}
+#print_link {display:none;}
+
+.dropdown-menu  {width:110%; margin-left:15px}
+
+#navigation ul li ul li label {background-color:#a32638; color:white; border-radius:5px; margin-left:10px; margin-top:2px; margin-bottom:5px; padding:3px;}
+.form-group {background-color:whitesmoke; height:100px; }
+
+#navigation ul li ul li label input {margin-left:10px; border-radius:5px; margin-top:7px; width:85%; }
+.form-group input {margin-left:10px; border-radius:5px; margin-top:7px; width:85%; }
+
+#navigation ul li ul li form { background-color:whitesmoke;}
+</style>
+
+<style>
+
+.footer{
+	margin-top: 40px;
+	color: #FFF;
+	clear: both;
+	margin-bottom:10px;
+	border-radius:10px;
+	
+	
+}
+
+.footer {
+margin-left: 0px;
+	background-color: #a32638;
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #a32638 0%, #8C0000 90%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #a32638 0%, #8c0000 80%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #a32638 0%, #8c0000 80%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #a32638), color-stop(1, #8c0000));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #a32638 0%, #8c0000 90%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #a32638 0%, #8c0000 90%);
+
+padding-left: 2em;
+font-size:.9em;
+
+}
+
+.footer{
+	margin-top: 40px;
+	color: #FFF;
+	clear: both;
+	margin-bottom:10px;
+	border-radius:10px;
+	
+	
+}
+
+.footer a {color:#ffffff;}
+
+.row-fluid {
+  *zoom: 1;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top: 10px;
+}
+
+.row-fluid .span3 {
+  width: 23.404255319148934%;
+  margin-top:.5em; display:inline;
+  
+}
+#parham { }
+.footer .row-fluid .span3 p {padding-bottom:10px;}
+.paddingtop {}
+.row-fluid .span3 {display:inline-block;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+   margin-right:10px;
+}
+
+</style>
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .outerbox {
+       filter: none;
+      background-color:#a32638;
+    }
+#navigation {background-color:#a32638;}
+.footer {background-color:#a32638;}

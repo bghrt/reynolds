@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+img {
+	border: 0
+}
+
+a {
+	color: #8C0000
+}
+
+.spacer { /* Spacer on either end of the floats will give the thumbnails space */
+  clear: both;
+  height: 0;
+}
+
+
+#banner {
+	background: #8C0000 url(../images/jsr_banner3.png) no-repeat top left;
+	position: relative;
+	height: 110px;
+	width: 985px; 
+} 
+
+#banner img {
+	float:left;
+}
+
+#banner h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+	float: left;
+	margin-left: 210px;
+	margin-top: -70px;
+	_margin-left: 100px;
+	_margin-top: -90px;
+}
+
+#banner h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Footer */
+
+#cfooter {
+	position: relative;
+	height: 60px;
+	margin-top:5px;
+	padding-top: 5px;
+	text-align: center;
+	background: #8C0000;
+	width: 985px;	
+}
+
+.cfooter_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	color: #fff;
+	text-align: center;
+}
+
+#cfooter ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#cfooter li{
+	color: #fff;
+	display: inline;
+	margin: 5px;
+}
+
+#cfooter li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+#cfooter li a:hover {
+	text-decoration: underline;
+}
+
+/*tabbed search */
+.sub_box_tabs {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+.h3tab { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	color:#333333;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+.small_text {
+	font-size: 90%;
+}
+
+.center {
+	text-align: center;
+}
+
+.az_list {
+	text-align: center;
+	color:#000000;
+}
+
+.az_list ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.az_list li{
+	display: inline;
+	margin: 1px;
+}
+
+.az_list li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.az_list li a:hover {
+	text-decoration: underline;
+}
+
+.sub_box_lt a, .sub_box_rt a {
+	font-size: 90%;
+	color: #003399;
+	text-decoration: none;
+}
+
+.sub_box_lt a:hover, .sub_box_rt a:hover {
+	text-decoration: underline;
+}
+
+.sub_box_lt {
+	float: left;
+	width: 50%;
+	display: inline;
+	_display:absolute;
+}
+
+.sub_box_rt {
+	width: 50%;
+	display: inline;
+}
+
+.tabem {
+	padding:0.35em 0.75em;
+	border-width:0 0 0 1px;padding:0.2em .75em;top:auto;left:-1px;
+	border-width:0 1px 0 0;
+	left:auto;
+	right:-1px;
+	display:block;
+	border:solid #a3a3a3;
+	border-width:1px 0 0;
+	cursor:hand;
+	padding:0.25em .55em;
+	left:0;
+	right:0;
+	bottom:0;
+	top:-1px;
+	position:relative;
+}
+
+#journalbanner {
+	background-color: #D6E7F7;
+	text-align: left;
+}
+
+#journalbanner img {
+	float: right;
+}
+
+.journalmenu ul {	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.journalmenu li{
+	display: inline;
+	padding-right: 10px;
+}

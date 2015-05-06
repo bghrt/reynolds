@@ -1,0 +1,24 @@
+
+
+
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	#responsive { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	 	#responsive tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+		#responsive th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+		#responsive td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}

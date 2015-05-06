@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+
+<!-- Favicon -->
+<link rel="icon" href="http://www.Reynolds.edu/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.Reynolds.edu/favicon.ico" type="image/x-icon">
+<title>Reynolds Library</title>
+<!-- Dependencies -->
+	
+	<!-- JavaScript Dependencies for Tabview: -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.3.1/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+	<script type="text/javascript" src="http://yui.yahooapis.com/2.3.1/build/element/element-beta-min.js"></script>
+
+	<!-- OPTIONAL: Connection (required for dynamic loading of data) -->
+	<script type="text/javascript" src="http://yui.yahooapis.com/2.3.1/build/connection/connection-min.js"></script>
+
+	<!-- Source file for TabView -->
+	<script type="text/javascript" src="http://yui.yahooapis.com/2.3.1/build/tabview/tabview-min.js"></script>
+
+	<!-- JavaScript for clearing default search text inputs -->
+    <script type="text/javascript" src="_scripts/util-functions.js"></script>
+	<script type="text/javascript" src="_scripts/clear-default-text.js"></script> 
+
+<link href="_css/tabview2.css" rel="stylesheet" type="text/css" />
+<link href="_css/library_main2.css" rel="stylesheet" type="text/css" />
+<link href="_css/mlink.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" />
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+	<script language="javascript" src="_scripts/jquery.tweet.js" type="text/javascript"></script> 
+    <script type='text/javascript'>
+		jQuery(function($){
+			$(".tweet").tweet({
+				username: "JSRlibrary",
+				join_text: "auto",
+				avatar_size: 0,
+				count: 1,
+				auto_join_text_default: "",
+				auto_join_text_ed: "",
+				auto_join_text_ing: "",
+				auto_join_text_reply: "",
+				auto_join_text_url: "",
+				loading_text: "loading tweets..."
+			});
+		});
+	</script> 
+
+    <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAASDM9cofb-3GenPBG21kzpBQzNk2wzkbosWfMijNsimEr4E4R3hQk3YdjRxwltQnOW5Necn0z6SCVQA"></script>
+    <script type="text/javascript" src="_scripts/gcal2.js"></script>
+</head>
+
+<body>
+<div id="announcement">Comments, concerns or suggestions? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDZqYlMyWTRod0RoY1h2cWlaNGpSMlE6MQ" target="_new">Your feedback is welcome</a></div>
+
+<div id="container">
+	<a href="m/default.htm" class="mobile mobilelink">On a mobile device? Visit http://library.Reynolds.edu/m/</a>
+    <div id="top_search">
+    <a href="#content-jump">Jump to Content</a>    </div> <!-- closes top_search -->
+    
+    <div id="banner">
+        <a href="http://www.Reynolds.edu"><img src="images/jsr-logo.png" alt="J. Sargeant Reynolds Community College Home" class="left"/></a>
+        <div class="spacer"></div>
+        <h1><a href="default.htm">LIBRARY</a></h1>
+    </div>   <!-- closes banner -->
+    
+<div id="body_main">
+	<div id="left_box">
+			<!-- Random images - stored in images/fpimg -->
+            <script type="text/javascript">
+				var images = [],
+				index = 0;
+				
+				images[0] = "<img src='http://library.Reynolds.edu/images/fpimg/photo2.jpg' alt='JSR Library' />";
+				images[1] = "<img src='http://library.Reynolds.edu/images/fpimg/photo3.jpg' alt='JSR Library' />";
+				images[2] = "<img src='http://library.Reynolds.edu/images/fpimg/photo4.jpg' alt='JSR Library' />";
+				images[3] = "<img src='http://library.Reynolds.edu/images/fpimg/photo5.jpg' alt='JSR Library' />";
+				images[4] = "<img src='http://library.Reynolds.edu/images/fpimg/photo6.jpg' alt='JSR Library' />";
+				
+				index = Math.floor(Math.random() * images.length);
+				
+				document.write(images[index]);
+			
+			</script>
+
+            <div class="sub_box_blue">
+                <h2 class="fpage-blue">Popular Databases</h2>
+                <ul>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?ebscoa9h">Academic Search Complete</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?ebscof5h">MasterFile Premier</a></li>
+                  <li><a href="http://ezproxy.vccs.edu:2048/login?url=http://library.vccs.edu/license-bin/linker.plx?xsrcinahlplus" target="_new"">CINAHL (Nursing)</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?cqpress">CQ Researcher</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?fofissues">Issues &amp; Controversies</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?factiva">Factiva</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?xsrfilms">Films On Demand</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?xsrjstor">JSTOR</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?galeovrc">Opposing Viewpoints</a></li>
+                  <li><a href="http://library.vccs.edu/license-bin/linker.plx?xsracademic">Lexis Nexis Academic</a></li>
+                  <li><a href="http://libguides.Reynolds.edu/az"><img src="images/arrow_right.png" alt="more" width="18" height="20" align="middle" /> More Databases</a></li>
+              </ul>
+	  		</div> <!-- ends sub_box_blue -->
+            
+            <a href="http://www.Reynolds.edu/myReynolds/default.htm" target="_blank" ><img src="images/myReynolds.gif" alt="My Reynolds, blackboard, email..." width="200" height="40" /></a>
+            
+            <div>
+
+            </div>
+            <div class="sub_box_blue">
+             <h2 class="fpage-blue">Affiliations</h2>
+                <ul>
+                    <li><a href="http://library.vccs.edu/reference/index.html" target="_blank">VCCS Libraries</a></li>
+                    <li><a href="ralc/default.htm" target="_blank">RALC</a></li>
+                 
+                </ul>
+        	</div>
+
+       </div> <!-- ends left_box -->
+       
+<div id="right_box">
+        <div class="breadcrumb"> 
+       	  <a href="http://www.Reynolds.edu/">Reynolds Home</a> &gt; Library Home        </div> <!-- ends breadcrumb -->
+        
+        <a name="content-jump" id="content-jump" href="#"></a>
+        <div class="center">
+        <br/>
+        </div>
+        
+        <div id="right_box_wrapper"> <!-- contains right and left columns -->
+  		                
+      	<div id="left_col">            
+            <div class="sub_box_tabs">
+       	  		<div id="gadget" class="yui-skin-sam">
+					<div id="demo" class="yui-navset">
+                    	<ul class="yui-nav">
+                        	<li class="selected"><a href="#tab1" title="Search for articles, books and media in our library" class="book"><em>QuickSearch</em></a></li>
+                            <li class="yuimenuitem"><a href="#tab2" title="Search for Journal and Newspaper Articles"><em> Articles </em></a></li>
+                            <li class="yuimenuitem"><a href="#tab3" title="Search Research Guides"><em> Research Guides </em></a></li>
+                            <li class="yuimenuitem"><a href="#tab4" title="Sign up for a free workshop"><em> Workshops </em></a></li>
+                        </ul>
+    
+ 						<div class="yui-content">
+							<div id="tab1"> 
+    								<span class="h3tab"><label for="request"><br />Search JSR Library</label></span></p>
+    								
+							  <div class="center">
+                                     <script type="text/javascript">
+function validateForm()
+{
+        var x=document.forms.primo.query.value;
+        if (x==null || x=="")
+        {
+                alert("Enter your search words");
+                return false;
+        } else {
+                document.forms.primo.query.value="any,contains,"+x;
+        }
+}
+</script>
+
+<form action="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/dlSearch.do?" enctype="application/x-www-form-urlencoded; charset=utf-8" method="get" name="primo" onsubmit="return validateForm()" target="_blank"><input name="tab" type="hidden" value="default_tab" /> <input name="institution" type="hidden" value="Reynolds" /> <input name="onCampus" type="hidden" value="false" /> <input name="indx" type="hidden" value="1" /> <input name="dum" type="hidden" value="true" /> <input name="vid" type="hidden" value="Reynolds" /> <input name="group" type="hidden" value="GUEST" /> <input name="search_scope" type="hidden" value="J. Sargeant Reynolds" /> <input name="query" placeholder="Find articles, books, media and more" size="40" type="text" /> <input class="submit" name="Submit" type="submit" value=" Go " /></form>
+                                     
+                                     	
+                                    <span class="small_text">
+                                    <p> <a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/search.do?mode=Advanced&amp;ct=AdvancedSearch&amp;dscnt=0&amp;vid=Reynolds" target="_parent">Advanced Search</a>  |  <a href="http://vccslinc.vccs.edu/F/?func=find-b-0&amp;local_base=Reynolds" target="_parent">Catalog</a> | <a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/dlBasketGet.do?vid=Reynolds&redirectTo=myAccount">My Account</a> |
+                                <a href="http://libguides.Reynolds.edu/content.php?pid=81682&amp;sid=607293">Area Libraries</a> <br>
+                                    <a href="http://library.vccs.edu/reference/primo-faq.html" target="_parent">What am I searching? </a></span> </div>                               
+                                    
+                                <br/>
+						  </div><!-- end tab1 -->
+
+
+							<div id="tab2">
+                            	<p class="h3tab"><br />Simple search for full-text articles</p>
+                                <div class="center">
+                                	<!-- EBSCOhost Custom Search Box Begins -->
+									<script src="http://supportforms.epnet.com/eit/scripts/ebscohostsearch.js" type="text/javascript"></script>
+                                    <form action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+                                    <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
+                                    <input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://ezproxy.vccs.edu:2048/login?url=http://search.ebscohost.com/login.aspx?direct=true&site=ehost-live&scope=site&type=1&db=a9h&db=oih&db=f5h&mode=bool&cli0=FT&clv0=Y" />
+                                    <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="url" />
+                                    <input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
+                                    <input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
+                                    
+                                    <div>
+                                        <input id="ebscohostsearchtext" name="ebscohostsearchtext" type="text" size="40" />
+                                        <input type="submit" value=" Go "/>
+                                    </div>
+                                    </form>
+                                    <!-- EBSCOhost Custom Search Box Ends -->
+                                </div>
+                               
+                            
+    							<p class="small_text">Browse Article Databases:</p>
+                                <div class="sub_box_lt">
+								 <ul>
+                                	<li><a href="http://libguides.Reynolds.edu/subject">Databases by Subject</a></li>
+                                    <li><a href="http://libguides.Reynolds.edu/az">Databases A-Z </a></li>
+                                    <li><a href="http://library.Reynolds.edu/find/journals/default.htm">Browse by Journal Title</a></li>
+                                </ul>
+                                </div>
+                               
+                                <div class="sub_box_rt">
+                                 <ul>
+                                    <li><a href="http://library.vccs.edu/reference/login.html">Off-Campus Access</a></li>
+                                    <li><a href="http://libguides.Reynolds.edu/databases">How to use the databases</a></li>
+                                     <li><a href="http://libguides.Reynolds.edu/howdoi">How Do I? (Tutorials)</a></li>
+                                 </ul>
+                      			</div>
+                     			<br/>
+                          </div> <!-- end tab2 -->
+                    
+                        <div id="tab3"> 
+                                <span class="h3tab"><label for="request"><br />Search guides for subjects, classes and more</label></span><br /></p>
+                                
+                                 <div class="center">
+                                    <script type='text/javascript' src='http://api.libguides.com/api_searchbox.php?iid=636&format=js&size=43&icon=off&btntext=Go'> </script>
+                                 </div>
+                                 
+                                 <p class="small_text">Browse Research Guides:</p>                         
+                                    <div class="sub_box_lt">
+                                    <ul>
+                                        <li><a href="http://libguides.Reynolds.edu/browse.php?o=s">Browse by Subject</a></li>
+                                        <li><a href="http://libguides.Reynolds.edu/browse.php">See A-Z List</a></li>
+                                        <li><a href="http://libguides.Reynolds.edu/index.php">LibGuides Home</a></li>
+                                    </ul>
+                                    </div>
+                                    
+                                    <div class="sub_box_rt">
+                                        <ul>
+                                            <li><a href="http://libguides.Reynolds.edu/research">Research at Reynolds Library</a></li>
+                                            <li><a href="http://libguides.Reynolds.edu/content.php?pid=131931&sid=2478362">List of handouts</a></li>
+                                            <li><a href="http://libguides.Reynolds.edu/howdoi">How Do I? (Video Tutorials)</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                          <br/>
+                        </div><!-- end tab3 -->
+                        
+                        <div id="tab4">
+                          <p>For full list of library workshops and descriptions, please see <a href="http://library.Reynolds.edu/events/workshops/default.htm">the workshops page.</a></p>
+                            <div id="api_upc_cid460_iid79"></div>
+                          <script type="text/javascript" src="http://Reynolds.libcal.com/api_events.php?iid=79&m=upc&cid=460&c=&d=&l=5&context=object&format=js"> 
+                            </script>
+                            
+                        </div><!-- end tab4 -->
+    
+                    
+                    </div> <!-- end yui-content -->
+                </div><!-- end demo -->
+    
+                <script language="JavaScript" type="text/JavaScript">
+                (function() {
+                    var tabView = new YAHOO.widget.TabView('demo');
+                
+                    YAHOO.log("The example has finished loading.", "info", "example");
+                })();
+                </script>
+              </div><!-- end gadget -->
+              </div><!-- end sub_box_tabs -->
+        
+        <div class="sub_box">
+        	<h2 class="fpage">Library Services </h2>
+        		<div class="sub_box_lt">
+                    <ul>
+                    	<li><a href="services/hours">Contacts, Hours &amp; Directions</a></li>
+                        <li><a href="http://libguides.Reynolds.edu/policies">Policies &amp; Library Mission</a></li>
+                        <li><a href="services/forms/group-study">Group Study Rooms</a></li>                        
+                        <li><a href="services/forms/default.htm">Library Forms</a></li>
+                        <li><a href="services/forms/ill">Interlibrary Loan</a></li>
+                  </ul>
+          		</div>
+                <div class="sub_box_rt">
+                    <ul>
+                    	<li><a href="http://libguides.Reynolds.edu/cite">Citing Sources</a> <a href="http://library.vccs.edu/license-bin/linker.plx?xsreasy" title="EasyBib" target="_new">&amp; EasyBib</a></li>
+                        <li><a href="http://libguides.Reynolds.edu/request">Library Instruction Request</a></li>
+                        <li><a href="http://libguides.Reynolds.edu/dlorientation">Student Services</a></li>
+                    	<li><a href="http://libguides.Reynolds.edu/faculty">Faculty Services</a></li>
+                        <li><a href="http://libguides.Reynolds.edu/distancelearning">Distance Learning Services</a></li>                        
+                  </ul>
+          		</div>      
+
+        </div><!-- ends sub_box -->
+        
+        <div class="sub_box">
+        	<h2 class="fpage">What's New</h2>
+                <div id="twitter_div">
+                  <ul>
+					  <li>Spotlight on <a href="http://Reynoldslibrary.wordpress.com/2013/08/30/new-video-resources-for-faculty-swank-digital-campus-and-more/">Streaming and DVDs @ Reynolds Library</a></li>
+                      <li>Spotlight on  <a href="http://Reynoldslibrary.wordpress.com/2013/09/05/library-open-house-come-in-and-check-out-us-out/" title="Library Databases">Library Open House for Students and Faculty</a>                        
+                    <li>Spotlight on  <a href="http://Reynoldslibrary.wordpress.com/2013/09/13/the-importance-of-being-cute-pet-photography-in-virginia-1840-2013-at-the-library-of-virginia//">The Importance of Being Cute: Virginian Pet Photography!</a>                      
+                  </ul>
+</div>
+         </div>
+         
+         <div class="sub_box_nb">
+         	<div class="sub_box_lt2">
+         	  </p>
+              <p><!--            <h2 class="fpage-green">Today's Library Hours</h2>
+                <div id="calendarTitle"></div>
+                <div id="events"></div>
+                  <noscript>JavaScript required to see today's hours. Please see <a href="http://library.Reynolds.edu/services/hours/default.htm#hours">our calendar</a> for list of library hours.</noscript>
+    
+                
+                <p class="caltxt"><a href="services/hours/default.htm#hours">View Calendar</a></p>-->
+              </p>
+              <h4><a href="http://Reynoldslibrary.wordpress.com/" target="_blank">More from Library Blog...</a></h4>
+<p>&nbsp;</p>
+<h4><a href="https://docs.google.com/spreadsheet/viewform?formkey=dDZqYlMyWTRod0RoY1h2cWlaNGpSMlE6MQ">Please give us some feedback</a> on how we can better serve you.</p></h4>
+         	</div>
+            
+            <div class="sub_box_rt">
+            <div class="right_col_green_blackborder"><a href="http://library.Reynolds.edu/events/bookdiscussion/default.htm"><img src="images/aroundtheworld2.png" width="200" height="125" alt="around" /></a></div>
+            </div>
+         </div>
+         
+         </div>
+      	
+      	<!--ends left col-->
+         
+         <div class="right_col_green">
+         <h2 class="fpage-green">Today's Library Hours</h2>
+            <div id="calendarTitle"></div>
+            <div id="events"></div>
+              <noscript>JavaScript required to see today's hours. Please see <a href="http://library.Reynolds.edu/services/hours/default.htm#hours">our calendar</a> for list of library hours.</noscript>
+
+            
+            <p class="caltxt"><a href="services/hours/default.htm#hours">View Calendar</a></p>
+
+             <h2 class="fpage-green">Ask A Librarian</h2>
+                <div class="sub_box_chat2">
+                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript" ></script>
+        
+                    <!-- if using qwidget size "fill", make sure that the minimum height for the parent element of qwidget container on this page is 230 px.-->
+                    <!-- IMPORTANT - if using multiple chat widgets on the same page: Please incrementally change the "qwidgetno" attribute on the div and script elements for each additional qwidget on the same page.-->
+                    <!-- Beginning of QuestionPoint qwidget code. -->
+                    <div id="qpchatwidget" qwidgetno="1" ></div>
+                    <script id="qp.bootstrap" qwidgetno="1" type="text/javascript" src="http://www.questionpoint.org/crs/js/qwidget/qp.bootstrap.js?langcode=1&instid=12988&skin=black&size=small" charset="utf-8">//<noscript>Please enable javascript to chat with librarians online</noscript></script>
+               </div>
+               
+               <h3>Call Us</h3>
+                <ul class="tickybox">
+                    <li><a href="services/hours/downtown.htm">Downtown</a>: 804-523-5211 </li>
+                    <li><a href="services/hours/parham.htm">Parham</a>: 804-523-5220 </li>
+                    <li><a href="services/hours/western.htm">Goochland</a>: 804-523-5419</li>
+                </ul>
+                
+                <h3>Email Us</h3>
+                <p><a href="http://library.Reynolds.edu/research/ask/email.asp">Submit your request for information</a> and we'll respond within 24 hours during normal opening times.</p>
+        </div>
+        <div class="right_col_nb">
+        <p class="small_text">&nbsp;</p>
+        </div>
+
+        </div><!-- ends right_box_wrapper -->
+      </div><!-- ends right_box -->
+<div class="spacer"></div>
+  </div> <!-- ends body_main -->
+
+    <div id="footer">
+        <ul class="footer">
+            <li><a href="http://www.Reynolds.edu/default.htm">Home </a>|</li>
+            <li><a href="http://www.Reynolds.edu/aboutReynolds.htm">About Reynolds</a> |</li>
+            <li><a href="http://www.Reynolds.edu/prospectivestudents.htm">Future Students</a> |</li>
+            <li><a href="http://www.Reynolds.edu/currentstudents.htm">Current Students</a> |</li>
+            <li><a href="http://www.Reynolds.edu/facultystaff.htm">Faculty/Staff</a> |</li>
+            <li><a href="http://www.Reynolds.edu/alumnifriends.htm">Alumni/Friends</a> |</li>
+            <li><a href="http://www.Reynolds.edu/search.html">Search</a> |</li>
+            <li><a href="http://www.Reynolds.edu/_sitemap/default.htm">Site Map</a></li>
+        </ul>
+        <span class="footer_text2"> &copy; J. Sargeant Reynolds Community College | PO BOX 85622 Richmond, Virginia, USA 23285-5622 | (804) 371-3000</span>    </div> 
+  <!-- ends footer -->
+  	<div id="updated"> <span class="small_text">Last Updated:
+          <!-- #BeginDate format:Am1 -->September 19, 2013<!-- #EndDate -->
+</span> </div> <!-- ends updated -->
+	
+        <div id="web20">
+            <ul>
+                <li><a href="http://www.facebook.com/pages/Richmond-VA/J-Sargeant-Reynolds-Community-College-Libraries/35093874578" target="_blank"><img src="images/facebook2.png" alt="Facebook"/></a></li>
+                <li><a href="http://delicious.com/Reynoldslibrary" target="_blank"><img src="images/delicious2.png" alt="Delicious" /></a></li>
+                <li><a href="http://Reynoldslibrary.wordpress.com/" target="_blank"><img src="images/wordpress2.png" alt="Our Blog" /></a></li>
+                <li><a href="https://twitter.com/ReynoldsLibrary" target="_blank"><img src="images/twitter2.png" alt="Twitter" /></a></li>
+            </ul>
+    	</div>
+    </div> 
+    
+
+
+<!-- ends content -->
+
+<!-- Google Analytics Code -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-7396655-1");
+			pageTracker._trackPageview();
+		} catch(err) {}
+    </script> <!-- Twitter Code: placed here to ensure loading of page even in the case of twitter.com non-loading -->
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/JSRLibrary.json?callback=twitterCallback2&amp;count=3"></script>
+
+<!--Google Calendar code<-->
+<script type="text/javascript">
+    loadCalendar('http://www.google.com/calendar/feeds/jsrlibrary@gmail.com/public/full');
+</script>
+</body>
+</html>

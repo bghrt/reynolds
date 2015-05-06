@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<style>
+body {
+	margin: 2em auto;
+	max-width: 40em;
+	line-height: 1.5;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li {
+	display: block;
+	margin-bottom: 1em;
+	padding: 0.7em;
+	background: #eee;
+}
+
+</style>
+
+<script>
+(function( $ ) {
+	$(function() {
+		$( "h4", "#databases" ).sort(function( a, b ) {
+			return $( a ).text() > $( b ).text(); 
+
+		}).appendTo( "#databases" );
+
+	});
+
+})( jQuery );
+
+</script>
+</head>
+
+<body>
+
+<ul id="databases">
+		<h4>Sem lacinia quam venenatis vestibulum.</h4>
+		<h4>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</h4>
+		<h4>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</h4>
+</ul>	
+
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document portal content responsive */
+
+/*Media queries begin here*/
+
+@media (min-width:1580px) and (max-width:100000px){
+
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	background-color:#ffffff;
+	position:relative;}
+	body {background-color:lightgray;}
+
+.container {margin-left:auto; margin-right:auto; } 
+.footer {margin:0; padding:0; width:auto;}
+.footer {margin-top:2em; padding:0; width:100%;}
+.footer .row-fluid .span3 {margin-left:1em;}
+}	
+
+
+@media (min-width:1300px) and (max-width:1579px) {
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	background-color:#ffffff;
+	position:relative;}
+	body {background-color:lightgray;}
+
+.container {margin-left:auto; margin-right:auto; } 
+.footer {margin-top:2em; padding:0; width:100%;}
+.footer .row-fluid .span3 {margin-left:1em;}
+ }
+
+@media (min-width:1120px) and (max-width:1140px)
+{.navbar-search {display:none;} 
+}
+
+
+
+@media only and (min-width:1025px) and (max-width:1119px) {
+body {font-size:75%; margin-left:auto; margin-right:auto;} .navbar .nav > li > a {font-size:90%;} #pic {display:none;  }
+ }
+ 
+@media (min-width:900px) and (max-width: 1024px) {
+body {font-size:75%; margin-left:auto; margin-right:auto;} .navbar .nav > li > a {font-size:90%;} #pic {display:none;  } .navbar .nav {margin-left:22%;} .navbar-search {display:none;}
+}
+
+
+
+
+@media (min-width:600px) and (max-width:899px){
+body {font-size:75%;} .row-fluid .span2 {display:none;} .dropdown {
+	width: 49%;
+	display: inline-block;
+	border: 1px solid #8c0000;
+	}  .row-fluid .span3 {width:35%;} nav {margin-left:30%;}
+.navbar .nav {margin-left:30%;}
+.footer .container .row-fluid .span3 {padding:0; margin:0px; width:30%;} .navbar-search {float:left;}
+#pic {display:none;  }
+}
+
+@media (min-width:1px) and (max-width:599px){
+	body {width:100%;}
+.container .row-fluid .row-fluid.span3 {width:100%;}
+div.span2 {display:none;}
+.row-fluid .span2 {display:none;}
+.floatright {display:none;}
+.label-breadcrumbs{display:none;}  
+.floatright {display:none;}
+#apDiv1 {width:20%;}
+.span6 {width:90%}
+.table-responsive {width:95%;}
+.row-fluid .span3 {width:90%; display:block;
+}
+.row-fluid .span6, .row-fluid .span5 {width:90%}
+.navbar-search {display:none;}
+.nav-collapse .nav {margin-left:0px;}
+#apDiv1 {display:none;}
+.footer table.table {width:50%;}
+.navbar-collapse .nav {
+     display: block;
+     float: none;
+     width:100%;}
+.dropdown {
+	width: 49%;
+	display: inline-block;
+	border: 1px solid #8c0000;
+	}
+.hide {display:inline-block; color:#ffffff; z-index:10000;}
+
+
+.table td {font-size:11px;}
+.table-responsive {width:100%;}
+.navbar .nav > li > a {font-size:13px; padding-top:1px; padding-bottom:1px;}
+.my_carousel  {display:none;}
+#carousel {dislay:none;}
+badge-important {display:none;}
+.paddingleft {display:none;}
+.portalwrapper {display:none; z-index:100000;}
+.footer .container .row-fluid .span3 {padding:0; margin:0px; width:90%;}
+td {width:90%;}
+#pic {display:none;  }
+#askmeabout {display:none;  }
+.portalheader {display:none;}
+#libraryservices {width:180%;}
+#carousel {display:none;}
+.nav {margin-left:0%;}
+apDiv1 img {z-index:1000; width:100%;}
+
+.navbar .nav > li > a {width:100%; margin:0px; display:inline-block;}
+}

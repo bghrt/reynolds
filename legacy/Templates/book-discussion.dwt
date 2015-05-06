@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Reynolds Book Discussion Series</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <link href="../events/bookdiscussion/_css/bkdis.css" rel="stylesheet" type="text/css" />
+    
+<!-- Images used under Creative Commons license, from Flickr. 
+		Background is http://www.flickr.com/photos/toasty/1540997910/ and 
+        Banner background is http://www.flickr.com/photos/fil/3151423/ */ -->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+	<div id="banner_top">
+    	<h1>Around the World Through Books</h1>
+      <h2>"Celebrating Our Differences and Similarities"</h2>
+    </div>
+
+  <div id="navbar">
+        <ul class="nav">
+        <!-- TemplateBeginEditable name="nav" --> 
+            <li><a class="active">Home</a></li>
+            <li><a href="current.htm">Current Series</a></li>
+            <li><a href="past.htm">Past Series</a></li>
+        <!-- TemplateEndEditable -->  
+        </ul>
+  </div> <!-- closes navbar-->
+  
+  <br />
+  <br />
+
+  <div id="content">  
+  <!-- TemplateBeginEditable name="content" -->    
+	<h1>Title</h1>
+
+    <p>Text </p>
+    <!-- TemplateEndEditable -->  </div><!-- closes content --> 
+  <div id="footer">
+      <p class="nav_bottom"><a href="http://www.Reynolds.edu"><img src="http://library.Reynolds.edu/images/jsr-logo.png" alt="J. Sargeant Reynolds Community College" /><br />
+        <br />
+        <br />
+        <br />
+      </a>Sponsored by the Book Subcommittee of the Reynolds Multicultural Enrichment Council<br />
+        Last Updated: 
+    <!-- TemplateBeginEditable name="date" -->
+        <!-- #BeginDate format:Am1 -->August 19, 2009<!-- #EndDate -->
+    <!-- TemplateEndEditable -->      </p>
+  </div>    <!-- closes footer-->
+</div>
+<!-- closes container -->
+
+
+
+
+</body>
+</html>

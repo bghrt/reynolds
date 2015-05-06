@@ -1,0 +1,683 @@
+<!-- InstanceBegin template="/Templates/services2.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link rel="shortcut icon" href="http://meh273.org/favicon.ico">
+   <link rel="icon" 
+      type="image/png" 
+      href="http://meh273.org/images/favicon.png">
+
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Reynolds Library - Services</title>
+
+<style>
+#policies  {font-weight:bold; background-color:whitesmoke;}
+</style>
+<!-- InstanceEndEditable -->
+<!--Important: must put google calendar code before jquery code must must must-->
+
+<!--Must put google calendar code before jquery code-->
+<!--Jquery references and tab code-->
+<script src="../jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="../js/backtothetop.js"></script>
+
+
+
+
+<!--CSS Style tags Main Style-->
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/responsive_subpage.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<!--End j query CSS-->
+
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="all">
+<div id="apDiv1"><a href="http://www.reynolds.edu/default.aspx"><img src="../images/rcc-reverse-2.png" width="200" height="70" alt="Reynolds"></a></div>
+<div class="navbar">
+  <div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
+    <div class="container"> <span class="hide"><a href="../default.htm"><img src="../images/mobilelogo.png"></a></span> </div>
+    <div class="nav-collapse">
+      <ul class="nav">
+       
+        <li class="dropdown"> <a href="../default.htm">Library Home</a> 
+
+<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Reynolds <span class="caret"></span></a>
+
+<form role="form" class="dropdown-menu myReynolds" method="POST" name="auth" action="https://jsr.my.vccs.edu/login" onsubmit="return validate();" >
+                    <div class="form-group">
+                      <label for="myjsr_id">Username</label>
+                      <input type="text" class="form-control" id="myjsr_id" name="vccsid" tabindex="1" placeholder="MyReynolds  username">
+                    </div>
+                    <div class="form-group">
+                      <label for="myjsr_password">Password</label>
+                      <input type="password" class="form-control" name="password_temp" id="myjsr_password" tabindex="2" placeholder="My Reynolds password">
+                    </div>
+                    <input type="hidden" name="password" />
+                    <input type="hidden" name="myvccsurl" value='' />
+                    <input type="hidden" name="requesturl" value='http://jsr.my.vccs.edu/jsp/login.jsp' />
+                   
+                    <button type="submit" class="btn btn-default">Login</button>
+                  </form></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="../research/atozdatabases.html">A to Z Databases</a></li>
+            <li><a href="../research/subjectdatabases.html">Databases By Subject</a></li>
+           
+            <li><a href="http://vccslinc.vccs.edu/F/?func=find-b-0&local_base=jsrcc">Books/Catalog</a></li>
+            <li><a href="../research/findjournal.html">Search Journals</a></li>
+          </ul>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://libguides.Reynolds.edu/everything">Subject Guides</a></li>
+            <li><a href="http://libguides.Reynolds.edu/content.php?pid=546628&sid=4499008">Class Guides</a></li>
+            <li><a href="http://libguides.Reynolds.edu/sdv100new">SDV100</a></li>
+            <li><a href="http://libguides.Reynolds.edu/research">Research at Reynolds</a></li>
+            <li><a href="http://libguides.Reynolds.edu/mla">MLA/APA</a></li>
+            <li><a href="http://libguides.Reynolds.edu/statistics">Statistics</a></li>
+          </ul>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          
+            <li><a href="../research/index.html">Database Portal</a></li>
+            <li><a href="http://library.vccs.edu/license-bin/linker.plx?ebscoa9h">Academic Search Complete</a></li>
+            <li><a href="http://library.vccs.edu/license-bin/linker.plx?galeovrc">Opposing Viewpoints</a></li>
+          
+            <li><a href="http://library.vccs.edu/license-bin/linker.plx?xsrjstor">JSTOR</a></li>
+       
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+             <li><a href="forms.html" id="forms">Forms </a></li>
+              <li id="interlibrary"><a href="interlibraryloan.html">Interlibrary Loan</a></li>
+         <li id="policies"><a href="policies.html">Policies</a></li>
+        
+            <li id="staff"><a href="staff.htm">Staff</a></li>
+         
+           
+           
+            <li id="studyrooms"><a href="groupstudyrooms.html">Study Rooms</a></li>
+          </ul>
+        </li>
+        
+         
+          </ul>
+        </li>
+      </ul>
+    <form class="navbar-search pull-right2" >
+        <div id="apDiv3">  <gcse:search>
+          <script>
+  (function() {
+    var cx = '010622249790429968557:cceljkmcpg8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+         </gcse:search>
+        </div>
+      </form>
+      </li>
+    </div>
+    <!-- /.nav-collapse -->
+  </div>
+  <!-- /.container -->
+</div>
+  
+  <!--/.nav-collapse -->
+  <header> <span class="floatright">Where Outstanding Learners Get Started</span></header>
+<!--End of the header content-->
+<!-- Example row of columns/ Bottom -->
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row-fluid">
+      <div class="offset1"></div>
+      <div class="row-fluid span3">
+       <div class="thinredborder">
+    <h3 class="badge-info">Services Portal</h3>
+   <table width="100%" class="table table-hover">
+      <tbody>
+       <tr>
+         <td class="raquo_menu_submenu" id="mission"><a href="mission.htm" class="raquo_menu_submenu">About Us & Mission</a></td>
+         
+         
+      </tr>
+        <tr>
+         <td class="raquo_menu_submenu" id="calendar"><a href="calendar.html" class="raquo_menu_submenu">Calendar/Hours</a></td>
+         
+      </tr>
+      
+      <tr>
+         <td class="raquo_menu_submenu"id="distance"><a href="distancelearning.html" class="raquo_menu_submenu">Distance Learning </a></td>
+         
+      </tr>
+      <tr>
+        <td class="raquo_menu_submenu" id="faq" ><a href="faqs.html" class="raquo_menu_submenu">FAQs</a></td>
+      <tr>
+      
+        <tr>
+        <td class="raquo_menu_submenu" id="forms"><a href="forms.html" class="raquo_menu_submenu">Forms</a></td>
+        </tr>
+        
+          <tr>
+         <td class="raquo_menu_submenu" id="studyrooms"><a href="groupstudyrooms.html" class="raquo_menu_submenu">Group Study Rooms</a></td>
+               
+      </tr>
+        
+       
+      <tr>
+         <td class="raquo_menu_submenu" id="interlibrary"><a href="interlibraryloan.html" class="raquo_menu_submenu">Interlibrary Loan</a></td>
+         
+      </tr>
+      
+         <tr>
+         <td class="raquo_menu_submenu" id="campuses"><a href="campuses.html" class="raquo_menu_submenu">Library Locations</a></td>
+         
+      </tr>
+      
+    
+      
+     
+      
+    
+     
+       <tr>
+         <td class="raquo_menu_submenu" id="policies"><a href="policies.html" class="raquo_menu_submenu">Policies</a></td></tr>
+         
+          <tr>
+         <td class="raquo_menu_submenu" id="ralc1"><a href="ralc.html" class="raquo_menu_submenu">RALC PASS</a></td>
+         
+           <tr>
+         <td class="raquo_menu_submenu" id="staff"><a href="staff.htm" class="raquo_menu_submenu" >Staff</a></td>
+         
+      </tr>
+       
+         <tr>
+         <td class="raquo_menu_submenu" id="viva"><a href="viva.html" class="raquo_menu_submenu">VIVA & VCCS</a></td>        
+      </tr>
+        
+        <td class="raquo_menu paddingtop">
+          &raquo;<a href="../research/index.html" >Research Portal</a>
+       </td>
+     
+       
+      <tr>
+        <td class="raquo_menu paddingtop">&raquo;<a href="../students/index.html" >Student Portal</a></td>
+      <tr>
+      <tr>
+        <td class="raquo_menu paddingtop">&raquo;<a href="../faculty/index.html" >Faculty Portal</a><br></td>
+       
+      <tr>
+      <tr>     
+      <tr>
+       
+     
+    </table>
+  
+  </div>
+   </div>
+   
+		
+      <!-- InstanceBeginEditable name="main" -->
+      <div class="span6">
+      
+       <h3 class="label-important">Reynolds Library Policies</h3>
+
+        <p class="btn"><a href="#children">Children In The Library</a></p>
+        <p class="btn"><a href="#computers">Computer Use In The Library</a></p>
+        <p class="btn"><a href="#donating">Donating to the library</a>        </p>
+        <p class="btn"><a href="#group">Group Study Rooms</a></p>
+       
+        <p class="btn"><a href="#loans">Loan and Overdue Materials Policies</a></p>
+        
+        <p class="btn"><a href="#printing">Printing Policies</a></p>
+        <p class="btn"><a href="#quiet">Quiet Policy</a></p>
+        <p class="btn"><a href="#reserve">Reserves</a></p>
+        
+        <p>&nbsp;        </p>
+       
+        <h4><a name="children" id="children"></a>Children in the Library</h4><p>
+     The library is committed to maintaining an environment that is conducive to learning.  As per <a href="http://inside.reynolds.edu/_policies/Section 4/4-31.docx" target="_blank">Reynolds policy 4-31</a>, children are defined as any child in need of supervision, or under the age of 14. In compliance with this commitment, children without parental/adult supervision are not permitted in the library.  Patrons who leave children unattended in the library will be contacted by the Department of Police.</p>
+    <p> Updated 1/6/2015 </p>
+<h5> <a href="#">Back to top</a></h5>
+        
+             <h4><a name="computers" id="computers"></a>Computer Use Policy</h4>
+    <p> Reynolds Library provides computers and computer information resources at each campus to support teaching and learning. In addition, WiFi access is available college-wide for users with laptops or other portable devices. The computers are equipped with library research databases, MS Office Suite 2013 and other specialty software to allow students to complete their academic assignments. 
+
+  <p>At Parham and Goochland Campus Libraries, computers are available on a first-come, first-served basis. 
+
+  <p>At the Downtown Campus Library, enrolled students are required to present a current picture ID to use the 32 student computers.  Community members may use the 2 designated public computers by presenting a current driver's license. Community members are limited to two hours of computer use per day. In addition, there are 2 standing, designated express workstations that can be used by anyone for 15 minutes or less. 
+
+  <p>Users of library computer resources are expected to abide by the following policies: 
+
+  <p>1. Academic work takes first priority. During peak times, patrons engaged in non-academic activities may be asked to give up their workstation.
+
+  <p>2. As per Reynolds policy <a href="http://inside.reynolds.edu/_policies/Section 4/4-32.docx" target="_blank">4-32</a> and <a href="http://www.vccs.edu/student-patron-acceptable-use-agreement/" target="_blank">VCCS Information Technology Student/Patron Acceptable User Agreement</a> users are not allowed to: 
+
+  <p>a. Access, download, print, or store any information infrastructure files or services having sexually explicit content, or cultural, ethical and racial discrimination and violent materials unless authorized for class research. 
+
+  <p>b. Modify and remove equipment or software.
+
+  <p> c. Use disruptive or destructive programs (viruses, etc.) 
+
+  <p>d. Disseminate unlawful, fraudulent, obscene, harassing, or threatening messages. 
+
+  <p>e. Use college computing resources to support any commercial venture or for personal financial gain. 
+
+  <p>3. Children 14 and under are not permitted to use the computers without parental supervision. As per Reynolds policy <a href="http://inside.reynolds.edu/_policies/Section 4/4-31.docx" target="_blank">4-31</a> unattended children will become custody of the Reynolds Police. 
+
+  <p>4. As per Reynolds policy <a href="http://inside.reynolds.edu/_policies/Section 4/4-03.docx">4-3</a> eating and drinking are not permitted at computer stations.
+
+  <p>5. Users will respect the privacy of others, including keeping noise to an acceptable level so as not to disturb other users of the library. 
+
+  <p>6. Users are responsible for cleaning up their computer station upon leaving and closing out all applications. 
+
+  <p>7. Users will report to the library staff any malfunction that occurs at their station.
+
+  <p>8. Computer stations may be monitored by library staff at any time. 
+
+  <p>9. Library staff provide assistance and guidance with information, research and technology. However, students are expected to complete their own assignments.
+
+  <p>Users who are found to be in violation of these policies are subject to disciplinary actions and may be restricted from or denied access to computer resources. 
+   <p> Updated 1/6/2015 </p>
+        <h5> <a href="#">Back to top</a></h5>
+        
+         <h4><a id="donating"></a>Donating to the library</h4>
+        <p>Reynolds Library welcomes gifts of materials that are consistent with the Collection Development Policy, and with the stipulation that gifts become property of the Library. As such, materials may be added to the collection or disposed of at the discretion of the library staff. Materials received as gifts will be evaluated by the same criteria as materials purchased. The Library will determine the classification, housing, and circulation policy for all gifts. If youd like a written acknowledgment that states the number of items donated, please complete the <a href="http://library.reynolds.edu/internal/donationform/Donor Letter Form.pdf">Donor Letter Form</a>. Appraisal of the gift for tax purposes is the responsibility of the donor. </p>    <p> Updated 1/6/2015 </p>
+        <h5> <a href="#">Back to top</a></h5>
+        
+ 
+  
+        
+          <h4><a name="food" id="food"></a>Food in the library</h4>
+       <p>As per <a href="http://inside.reynolds.edu/_policies/Section 4/4-03.docx" target="_blank">Reynolds policy 4-3</a>, eating and drinking are not permitted at computer stations. </p>
+
+        
+        <h5> <a href="#">Back to top</a></h5>
+        
+             <h4><a name="group" id="group"></a>Group Study Rooms</h4>
+        <p>Reynolds Library provide group study rooms to college faculty, staff and students for collaborative learning projects, small meetings, advising or tutoring sessions, etc.&nbsp; All study rooms are equipped with wireless Internet access and white boards.&nbsp; The Downtown Campus has three group study rooms and the Parham Road Campus has eight group study rooms, each of which can accommodate four to six people.&nbsp;</p>
+        <p>The following regulations are designed to provide fair access to the study rooms and to ensure responsible use.</p>
+        <p>Group Study rooms are available for currently enrolled Reynolds students, faculty and staff in good standing with the library.&nbsp; A student, faculty or staff ID needs to be presented at the Library Desk for obtaining the key to a group study room.&nbsp; Student IDs will be kept at the desk until the room is vacated at the end of the session.</p>
+        <p><strong>Due to high demand, group study rooms are available only on a first come, first served basis.</strong></p>
+        <p>Group study rooms can be used by groups or individuals. However, groups of two or more students have priorities over individual users.&nbsp; Individual users will need to vacate the rooms for groups when no other group study rooms are available, unless the individual users have overriding justifications for special accommodations.&nbsp; Please notify the library staff if you have Special Accommodation Needs and provide a copy of your ANF form to the Library staff.&nbsp;</p>
+        <p>Group study rooms can be used for academic and college-related activities only.&nbsp; Rooms may not be booked for business or personal use.</p>
+        <p>Use by a single group is limited to two hours per day with renewals only if there are no other requests for use.&nbsp; Rooms must be left in clean condition.</p>
+        <p>Basic instruction sheets for using the equipment will be kept in each group study room.&nbsp; Equipment that is not working should be reported to the library staff, but the library staff cannot provide operators for the equipment.</p>
+        <p>Users must keep the group study room&rsquo;s door unlocked with the lights on at all times.&nbsp; No covering is allowed on the windows.&nbsp;</p>
+        <p>Users engaged in inappropriate or disruptive behavior violating the college&rsquo;s&nbsp; <a href="http://www.reynolds.edu/who_we_are/about/learning_environment.aspx" target="_blank">Learning Environment principles</a> will be asked to vacate the room and will be liable for any damage done to the room or equipment.</p>
+        <p>All study rooms should be vacant no later than 15 minutes before the library closes.</p>
+        
+        
+        <p>Library employees are authorized to remove users from a group study room for any violation of these policies and may contact Campus Police if necessary to handle disruptive students.</p>  <p> Updated 1/6/2015 </p>
+        
+         <h5> <a href="#">Back to top</a></h5>
+        
+        <h4><a name="loans" id="loans"></a>Loan Policies</h4>
+        
+     
+<p ><b><span
+>Circulation Policies &amp; Procedures:</span></b><span
+><o:p></o:p></span></p>
+
+<p ><span
+>Your Reynolds<b>&nbsp;</b>student/faculty ID entitles you to
+check out<b> </b><span style='mso-bidi-font-weight:bold'>material including
+print books, audio books, and DVDs from Reynolds Library (15 item limit).<b> </b></span>Community
+users may obtain a library card by bringing in their valid photo ID with
+current address (5 item limit).&nbsp; Material checked out on your card is your
+responsibility.<o:p></o:p></span></p>
+
+<p ><span
+>Patrons may obtain material from any Reynolds Campus Library
+either in person or through intra-campus loan. Requests normally arrive within three
+business days. Material can be returned to any Reynolds Library.<o:p></o:p></span></p>
+
+<p ><b><span
+>Circulating Material:</span></b><span ><o:p></o:p></span></p>
+
+<p ><span
+>Material that can be checked out of the libraries include:<o:p></o:p></span></p>
+
+<p ><span
+>Print Books </span><span '>28 day checkout with one renewal <o:p></o:p></span></p>
+
+<p ><span
+>Audio Books 28
+day checkout with one renewal<o:p></o:p></span></p>
+
+<p ><span
+>Popular DVDs 1
+week checkout with one renewal<o:p></o:p></span></p>
+
+<p ><b><span
+>Please note</span></b><span >:
+Renewal is permitted online, in-person or by telephone <i>on or before</i> the
+due date unless another patron has requested the item. If the item is <i>past </i>due,
+you must bring the item to the library and check it out in person again at the
+Circulation Desk.&nbsp;<o:p></o:p></span></p>
+
+<p ><b><span
+>Reference Material:</span></b><span ><o:p></o:p></span></p>
+
+<p ><span
+>Reference books</span><span
+> (<i>encyclopedias, directories, etc.</i>) and <span
+style='mso-bidi-font-weight:bold'>periodicals</span> (<i>magazines, journals,
+and newspapers</i>) can be used within the library but <span style='mso-bidi-font-weight:
+bold'>cannot be checked out</span> of the library.<o:p></o:p></span></p>
+
+<p ><b><span
+>Reserve Material:&nbsp;</span></b><span ><o:p></o:p></span></p>
+
+<p ><span
+>Some instructors request material (textbooks, student
+guides, articles, <span class=SpellE>realia</span>, etc.) to be placed on
+reserve at the circulation desk for students to use in the library. Most
+reserve material has a <i>2-hour</i> loan period. Instructors will inform
+students of the titles and availability of items on reserve.<br>
+<br>
+Checkout is limited to 2 items.<br>
+<br>
+Reserve items are supplied by instructors and academic departments or are taken
+from the librarys circulating collection. The Reserve Collection does not
+contain textbooks for all Reynolds classes.<br>
+<br>
+Please note that reserve items are usually unique to each campus. Items on
+reserve at one campus may not be available at other campuses.&nbsp;To check the
+availability of items on Reserve, check the </span><a
+href="http://library.reynolds.edu/students/reservetextbooks.html"><span
+>Current Reserves List</span></a><span >.
+<o:p></o:p></span></p>
+
+<p ><b><span
+>Overdue Material<span class=GramE>:</span></span></b><span
+><br>
+<br>
+Overdue materials or outstanding fees result in a block on the patrons library
+record. Patrons cannot check out material, obtain transcripts or register for
+classes until the block is cleared. Library blocks will be cleared when the
+items are returned and/or when the fee is paid. <o:p></o:p></span></p>
+
+<p ><span
+>Patrons who are late in returning DVDs will be charged $1.00
+per day per item.<o:p></o:p></span></p>
+
+<p ><b><span
+>Lost or Damaged Material:</span></b><span ><o:p></o:p></span></p>
+
+
+
+<p>
+Items more than 30 days overdue are considered lost items and a billing letter will be sent. The charge for a lost or damaged item is:</p>
+<p>$65 per book or the replacement cost of the book, whichever is greater</p>
+<p>$50 per DVD/Audiobook or the replacement cost, whichever is greater
+Patrons may be issued a refund for lost items that they have paid for and are subsequently able to return. Material must be:</p>
+<p>Undamaged</p>
+<p>Returned within 6 months of the original due date of the material</p>
+<p>Not yet replaced</p>
+
+
+
+<p ><span
+>Reynolds Library does not accept patron-purchased
+replacement copies of lost material in lieu of payment of the replacement fee.<br>
+<br>
+The replacement fee for lost or damaged Interlibrary Loan material will be
+determined by the respective lending library.<o:p></o:p></span></p>
+
+<p ><span
+>Unpaid library obligations will prevent students from
+registering and obtaining grade transcripts. The Commonwealth of Virginia
+requires that all debts to the State be actively pursued. Therefore, any debts
+not paid will be sent to a collection agency at which time additional fees may
+accrue.<o:p></o:p></span></p>  <p> Updated 1/6/2015 </p>
+
+<p ><b><span
+>Borrowing Materials from Other Libraries</span></b><span
+><o:p></o:p></span></p>
+
+<p ><span
+>If material is not available at Reynolds Library, current students,
+faculty, and staff can borrow material from other libraries through the
+following options:<o:p></o:p></span></p>
+
+<p ><span
+>Cooperative Borrowing Program<br>
+Reynolds Library has partnered with other academic libraries in VIVAs </span><a
+href="http://www.vivalib.org/borrowing/index.php"><span >Cooperative
+Borrowing Program</span></a><span > which allows current Reynolds
+students, faculty, and staff to borrow library materials directly from </span><a
+href="http://www.vivalib.org/borrowing/index.php"><span >participating
+libraries</span></a><span >. Borrowers will be required to show
+their Reynolds ID and must abide by all policies of the lending library,
+including loan periods, fines, and replacement charges. Borrowers may need to
+log into their <span class=SpellE>myReynolds</span> account to prove current
+enrollment or employment. Borrowers need to return material directly to the
+lending library. <o:p></o:p></span></p>
+
+<p ><span
+>Interlibrary Loan (ILL<span class=GramE>)</span><br>
+Current students, faculty, and staff can use ILL to request materials from
+libraries nationwide by filling out the </span><a
+href="http://library.reynolds.edu/services/interlibraryloan.html"><span
+>Interlibrary Loan (ILL) Request Form</span></a><span
+>. Patrons will be notified by email about the status of the
+request. Textbooks cannot be requested through Interlibrary Loan. Be advised
+that not all materials are available for loan. Items can take up to two weeks
+to arrive, so please plan ahead. <o:p></o:p></span></p>
+
+<p ><span
+>RALC Borrowing Pass<br>
+Reynolds Librarys association with RALC (</span><a
+href="http://library.reynolds.edu/ralc/default.htm"><span >Richmond
+Academic Library Consortium</span></a><span ;mso-fareast-font-family:"Times New Roman"'>) allows
+current students, faculty, and staff to borrow material from RALC libraries
+that are not participating in the </span><a
+href="http://www.vivalib.org/borrowing/index.php"><span >Cooperative
+Borrowing Program</span></a><span > (John Tyler, Randolph Macon, and
+Union Presbyterian). <o:p></o:p></span></p>
+
+<p ><span
+>Students must first obtain a </span><a
+href="http://library.reynolds.edu/ralc/initiatives/pass/default.htm"><span
+>RALC pass</span></a><span >
+in order to borrow from RALC institutions. This can be done at a reference desk
+of any Reynolds Library. Faculty and staff may use their Reynolds ID at the
+lending library; a RALC pass is not required. Borrowers need to return material
+directly to the lending library. Borrowers will be required to show a college-<span
+class=GramE>issued<span style='mso-spacerun:yes'></span>ID</span> and must
+abide by all policies of the lending library including loan periods, fines, and
+replacement charges. <o:p></o:p></span></p>
+
+<p ><span
+>For help with any of these services </span><a
+href="http://library.reynolds.edu/services/staff.htm"><span >contact</span></a><span
+> any Reynolds Library. <o:p></o:p></span></p>
+ <p> Updated 1/6/2015 </p>
+
+
+        <h5> <a href="#">Back to top</a></h5>
+       
+      
+      
+       
+        
+   
+        <h4><a name="printing" id="printing"></a>Printing</h4>
+        <p>As of June 2011, J. Sargeant Reynolds has adopted the Equitrac print management system. For more information, see the ACS's webpage regarding printing.
+          
+          Photocopiers allow you to make photocopies of pages from Reserve material, Reference material, assignments, etc. </p>
+        <p>Copies are $.05 a page and color copies are $.20 page. You will need an Equitrac print card to make photocopies. The print card itself costs $1.00 and is reloadable.</p>
+        <h5> <a href="#">Back to top</a></h5>
+       
+        <h4><a name="quiet" target="_self" id="quiet"></a>Quiet Policy</h4>
+        <p>Quiet study is expected and enforced at all three campus libraries. Please abide by <a href="http://www.reynolds.edu/who_we_are/about/learning_environment.aspx">Reynolds' learning environment principles</a> by respecting one another's privacy and keeping noise and conversation to a minimum. Pagers and cell phones should be turned off or set to vibrate before entering any campus library. Library staff may contact campus police if necessary to handle disruptive patrons. </p>  <p> Updated 1/6/2015 </p>
+        <h5> <a href="#">Back to top</a></h5>
+        
+         <h4><a name="reserve" id="reserve"></a>Reserve Materials</h4>
+        <p>Some instructors request material (textbooks, student guides, articles, realia, etc.) to be placed on reserve at the circulation desk for students to use in the library. Most reserve material has a 2-hour loan period. Instructors will inform students of the titles and availability of items on reserve.</p>
+
+<p>Checkout is limited to 2 items.</p>
+<p>Reserve items are supplied by instructors and academic departments or are taken from the library's circulating collection. The Reserve Collection does not contain textbooks for all Reynolds classes.</p>
+
+<p>Please note that reserve items are usually unique to each campus. Items on reserve at one campus may not be available at other campuses. To check the availability of items on Reserve, check the <a href="http://library.reynolds.edu/students/reservetextbooks.html">Current Reserves List</a>. 
+ </p> <p> Updated 1/6/2015 </p>
+        <h5> <a href="#">Back to top</a></h5>
+
+      </div>
+
+  
+   
+      <script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script><!-- InstanceEndEditable -->
+      <div class="span2">
+         <div class="paddingleft">
+<p class="text-success"> <div id="widgetwrapper"> 
+  <h3 id="chat"><img src="../images/chatred.png"  alt="chat"/> Chat:</h3>
+    <p><a href="ask.htm" class="btn">Chat Here</a></p>
+  <h3><img src="../images/phoneiconred.png"  alt="Phone Number"/>Call:</h3>
+  <p><strong>Downtown</strong>: <br>
+    804.523.5211 <br> <strong>Parham:</strong> <br>
+    804.523.5220 <strong>Goochland</strong>: <br>
+    804.523.5419 </p>
+  <h3><img src="../images/emailicon.png"  alt="Library Email Address" width="41" height="26"/> Email:</h3>
+  <p><a href="mailto:library@reynolds.edu"><strong>library@reynolds.edu</strong></a></p>
+  <h3><img src="../images/connectrad.png"  alt="connectviasocialnetworks"/> Connect:</h3>
+  <img name="socialmedia" src="../images/socialmedia.png"  id="socialmedia" usemap="#m_socialmedia" alt="socialmedia" />
+<map name="m_socialmedia" id="m_socialmedia">
+  <area shape="rect" coords="-5,2,42,39" href="https://www.facebook.com/JSRlibrary" target="_blank" alt="facebook" />
+  <area shape="rect" coords="45,0,85,38" href="https://twitter.com/JSRCCLibrary" target="_blank" alt="twitter" />
+  <area shape="rect" coords="93,1,134,37" href="http://reynoldslibrary.org/" target="_blank" alt="wordpress" />
+</map>
+
+    </div>
+</div>
+ </div>      
+</div>
+</div>
+<!--Row div-->
+<!--Row div-->
+<div class="footer"><div class="container"><div class="row-fluid">     
+<div class="span3">
+
+<p><strong>Downtown Library</strong></p>
+  <p>Room 230<br> 
+  700 E. Jackson Street<br> Richmond, VA 23219<br>
+  Phone: 804.523.5211</p>
+  <p>Regular Hours: <br>
+Monday - Thursday: 7:45 am - 9:00 pm<br>
+Friday: 7:45 am - 5:00 pm <br>
+Saturday: 8:00 am - 12:00 pm<br>
+Sunday: Closed</p>
+ 
+  </div>
+  <div class="span3">
+    <p><strong>Goochland Library</strong></p>
+    <p>Room 200<br> Building C20 1851 Dickinson Road<br> Goochland, VA  23063<br>
+Phone: 804.523.5419
+  <p>Regular Hours: <br>
+    Monday - Thursday: 8:30 am - 7:30 pm<br>
+    Friday: 8:30 am - 4:30 pm <br>
+    Saturday &amp; Sunday: Closed</p>
+</div>
+  <div class="span3">
+    <p><strong>Parham Road Library</strong></p>
+    <p>Room 103 <br> Massey LTC<br>     
+    1651 East Parham Road <br>Richmond, VA 23228<br>
+      804.523.5220<br>
+    <p>
+Regular Hours: <br>
+Monday - Thursday: 7:45 am - 9:00 pm<br>
+Friday: 7:45 am - 5:00 pm <br>
+Saturday: 12:00 pm - 4:00 pm<br>
+Sunday: Closed</p>
+  </div>
+  <div class="span3">
+   <p><strong> Reynolds Community College</strong><br><p>
+
+      PO BOX 85622 <br>
+      Richmond, VA, USA 23285-5622 <br> 804.371.3000
+   </p>
+
+
+
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="#" class="scrollToTop"></a>
+  </div>
+<!--Footer after container-->
+<!-- Le javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>
+<!-- container -->
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+<script type="text/javascript">
+ function dosearch() {
+ var sf=document.searchform;
+ for (i=sf.sengines.length-1; i > -1; i--) {
+ if (sf.sengines[i].checked) {
+ var submitto = sf.sengines[i].value + escape(sf.searchterms.value);
+ }
+ }
+ window.location.href = submitto;
+ return false;
+ }
+ </script>
+ <script language="Javascript" type="">
+function validate() {
+document.auth.password.value = document.auth.password_temp.value;
+document.auth.password_temp.value = "";
+return true;
+}
+</script>
+
+  <!--Analytics Tracking Code Essential-->
+  
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42159688-1', 'Reynolds.edu');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- InstanceEnd --></html>

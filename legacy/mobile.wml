@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+	<card id="main" title="Reynolds Library: Mobile" newcontext="true">
+    	<div id="banner">
+            <a href="http://www.Reynolds.edu"><img src="../images/jsr-logo.png" alt="J. Sargeant Reynolds Community College Home" class="left"/></a>
+            <div class="spacer"></div>
+            <h1><a href="../default.htm">LIBRARY</a></h1>
+		</div>
+        
+	</card>
+</wml>

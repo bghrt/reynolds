@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+
+<!-- Favicon -->
+<link rel="icon" href="http://www.Reynolds.edu/favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="http://www.Reynolds.edu/favicon.ico" type="image/x-icon">
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Reynolds Library</title>
+<!-- TemplateEndEditable -->
+<!-- Dependencies -->
+	
+	<!-- JavaScript for clearing default search text inputs -->
+    <script type="text/javascript" src="../_scripts/util-functions.js"></script>
+	<script type="text/javascript" src="../_scripts/clear-default-text.js"></script> 
+    
+<link href="../_css/library_main2.css" rel="stylesheet" type="text/css" />
+<link href="../_css/mlink.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" />
+
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="container">
+	<a href="../m/default.htm" class="mobile mobilelink">On a mobile device? Visit http://library.Reynolds.edu/m/</a>
+    <div id="top_search">
+        <a href="#content-jump">Jump to Content</a>    </div> <!-- closes top_search -->
+    
+    <div id="banner">   
+        <a href="http://www.Reynolds.edu"><img src="../images/jsr-logo.png" alt="J. Sargeant Reynolds Community College Home" class="left"/></a>
+        <div class="spacer"></div>
+        <h1><a href="../default.htm">LIBRARY</a></h1>
+     </div> <!-- closes banner -->
+    
+<div id="body_main">
+	<div id="left_box_sub">
+			<!-- Random images - stored in images/fpimg -->
+            <script type="text/javascript">
+				var images = [],
+				index = 0;
+				
+				images[0] = "<img src='http://library.Reynolds.edu/images/fpimg/photo2.jpg' alt='JSR Library' />";
+				images[1] = "<img src='http://library.Reynolds.edu/images/fpimg/photo3.jpg' alt='JSR Library' />";
+				images[2] = "<img src='http://library.Reynolds.edu/images/fpimg/photo4.jpg' alt='JSR Library' />";
+				images[3] = "<img src='http://library.Reynolds.edu/images/fpimg/photo5.jpg' alt='JSR Library' />";
+				images[4] = "<img src='http://library.Reynolds.edu/images/fpimg/photo6.jpg' alt='JSR Library' />";
+				
+				index = Math.floor(Math.random() * images.length);
+				
+				document.write(images[index]);
+			
+			</script>
+
+            <div class="sub_box_blue">
+                <h2 class="fpage-blue"><a href="../default.htm">Library</a></h2>
+                
+                <div class="sub_box_tabs">
+                <ul>
+                	<li><a href="http://library.Reynolds.edu/">Library Home</a></li>
+                    <li><a href="../services/hours/default.htm">Contacts,  Hours &amp; Directions</a></li>
+                    <li><a href="http://libguides.Reynolds.edu/policies">Policies</a></li>
+                    <li><a href="http://vccslinc.vccs.edu/F/?func=find-b-0&amp;local_base=Reynolds">Catalog for Books / Video</a></li>
+                    <li><a href="http://libguides.Reynolds.edu/subject">Databases by Subject</a></li>
+                    <li><a href="http://libguides.Reynolds.edu/">Research Guides</a></li>
+                    <li><a href="http://libguides.Reynolds.edu/dlorientation">Student Services</a></li>
+                    <li><a href="http://libguides.Reynolds.edu/faculty">Faculty Services</a></li>
+                    <li><a href="http://libguides.Reynolds.edu/distancelearning">Distance Learning Services</a></li>
+                </ul>
+              	</div>
+            </div> <!-- ends sub_box_blue -->
+            
+            <a href="http://www.Reynolds.edu/myReynolds/default.htm" target="_blank" ><img src="http://www.Reynolds.edu/images/homepage/myReynoldshigh.gif" alt="My Reynolds, blackboard, email..." name="blackboardside" id="blackboardside" width="200" border="0" height="40" /></a>
+            
+            <div class="sub_box_blue">
+              <h2 class="fpage-blue">Ask A Librarian</h2>
+                <div class="sub_box_chat2">
+					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript" ></script>
+                    
+                    <!-- if using qwidget size "fill", make sure that the minimum height for the parent element of qwidget container on this page is 230 px.-->
+                    <!-- IMPORTANT - if using multiple chat widgets on the same page: Please incrementally change the "qwidgetno" attribute on the div and script elements for each additional qwidget on the same page.-->
+                    <!-- Beginning of QuestionPoint qwidget code. -->
+                    <div id="qpchatwidget" qwidgetno="1" ></div>
+                    <script id="qp.bootstrap" qwidgetno="1" type="text/javascript" src="http://www.questionpoint.org/crs/js/qwidget/qp.bootstrap.js?langcode=1&instid=12988&skin=black&size=small" charset="utf-8">//<noscript>Please enable javascript to chat with librarians online</noscript></script>
+            	</div>
+                
+                <h3>Call Us</h3>
+                <ul class="tickybox">
+                    <li><a href="services/hours/downtown.htm">Downtown</a>: 804-523-5211 </li>
+                    <li><a href="services/hours/parham.htm">Parham</a>: 804-523-5220 </li>
+                    <li><a href="services/hours/western.htm">Goochland</a>: 804-523-5419</li>
+                </ul>
+            </div>
+    </div> <!-- ends left_box -->
+  <!-- For some reason IE6 won't display the contents w/o something here. So I'm using a 1x1 pixel graphic. -->
+	<img src="../images/1x1.gif" alt="" />
+    
+<!-- TemplateBeginEditable name="body" -->
+      <div id="right_box">
+        <div class="breadcrumb"> 
+   	    	<a href="http://www.Reynolds.edu/">Reynolds Home</a> > <a href="../default.htm">Library Home</a>        </div> <!-- ends breadcrumb -->
+               
+        <div id="right_box_wrapper">
+        	<a name="content-jump" id="content-jump" href="#"></a>
+  			<h2>Header</h2>
+  			<p>Content</p>            
+        </div><!-- ends right_box_wrapper -->
+      </div><!-- ends right_box -->
+<!-- TemplateEndEditable -->
+                   
+        <div class="spacer"></div>
+  </div> <!-- ends body_main -->
+
+    <div id="footer">
+        <ul class="footer">
+            <li><a href="http://www.Reynolds.edu/default.htm">Home</a>&nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/aboutReynolds.htm">About Reynolds</a> &nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/prospectivestudents.htm">Future Students</a> &nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/currentstudents.htm">Current Students</a> &nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/facultystaff.htm">Faculty/Staff</a> &nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/alumnifriends.htm">Alumni/Friends</a> &nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/search.html">Search</a> &nbsp; | &nbsp;</li>
+            <li><a href="http://www.Reynolds.edu/_sitemap/default.htm">Site Map</a></li>
+        </ul>
+        <p class="footer_text"> &copy; J. Sargeant Reynolds Community College | PO BOX 85622 Richmond, Virginia, USA 23285-5622 | (804) 371-3000</p>
+    </div> 
+  <!-- ends footer -->
+  <div id="updated"><!-- TemplateBeginEditable name="date" -->
+  		<span class="small_text">Last Updated:
+              <!-- #BeginDate format:Am1 -->November 2, 2012<!-- #EndDate -->
+    	</span><!-- TemplateEndEditable -->  </div> <!-- ends updated -->
+        
+        <div id="web20">
+            <ul>
+                <li><a href="http://www.facebook.com/pages/Richmond-VA/J-Sargeant-Reynolds-Community-College-Libraries/35093874578" target="_blank"><img src="../images/facebook2.png" alt="Facebook"/></a></li>
+                <li><a href="http://delicious.com/Reynoldslibrary" target="_blank"><img src="../images/delicious2.png" alt="Delicious" /></a></li>
+                <li><a href="http://Reynoldslibrary.wordpress.com/" target="_blank"><img src="../images/wordpress2.png" alt="Our Blog" /></a></li>
+                <li><a href="http://twitter.com/JSRLibrary" target="_blank"><img src="../images/twitter2.png" alt="Twitter" /></a></li>
+            </ul>
+    	</div>
+
+</div> <!-- ends content -->
+
+<!-- Google Analytics Code -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-7396655-1");
+			pageTracker._trackPageview();
+		} catch(err) {}
+    </script>
+
+</body>
+</html>

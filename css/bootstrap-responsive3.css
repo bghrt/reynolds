@@ -1,0 +1,308 @@
+/*!
+ media queries for the main page
+ */
+ 
+
+
+@media screen and (min-width:1356px) and (max-width:10000000px) {
+	
+.ui-tabs-nav li a {font-size:1.2em!important;}	
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #Ffffff;
+	position:relative;
+	width:1200px;}
+#apDiv1 {
+	left: 8px;
+}
+.nav-collapse.collapse {margin-left:17%;}
+
+body {background-color:#f4f6f6;max-width:1280px; font-size:90%;}
+.label-warning {margin-bottom:.5em;}
+
+
+.caltxt a {margin-top:-20px!important;}
+
+}
+
+@media screen and (min-width:1280px) and (max-width:1355){
+
+#all {	
+	width:1280px;}	
+body {background-color:#f4f6f6;max-width:1280px;}
+
+	} 
+
+
+/*ipad and other larger landscapes*/
+@media screen and (min-width:1100px) and (max-width: 1250px) {
+body {font-size:90%;} #Reynoldssearch {width:120px;}  .navbar .nav > li > a {font-size:140%;}
+
+
+
+}
+
+@media screen and (min-width:970px) and (max-width: 1099px) {
+body {font-size:75%;}
+input#searchbox2 {width:100px;}
+.navbar .nav > li > a {font-size:160%;}
+#apDiv1 img{
+/*transform*/
+width: 90%; height:80%;
+}
+
+.badge-info img {height:25px; width:25px;}
+.label-info, .badge-info {height:35px;}
+.h3tab label {height:32px;}
+.carousel-inner > .item > a > img {margin-top:5px; height:200px;}
+.raquo_menu a {font-size:80%;}
+apDiv1 {width:75%;}
+.small_text p a, .small_text a {font-size:80%;}
+.popup-marker.btn {display:none;}
+#search {text-align:center;}
+.navbar-search {width:115px; margin-right:10px;}
+#Reynoldsbutton {display:none;}
+
+.dropdown-menu > li > a {font-size:140%;}
+.callemailchat {
+	background-image: url(../images/chat247_small.png); height: 72px;
+	width: 177px; background-repeat: no-repeat;
+	margin-top:.5em;
+	
+}	
+.callemailchat a{ display:block;
+	width:100%;
+	height:100%;}
+.callemailchat:hover {background-image: url(../images/chat247_smallhover.png); height: 72px;
+	width: 177px; background-repeat: no-repeat; }
+	.tooltip {display:none;}
+	
+#events {font-size:80%!important; padding-left:padding:5px;}
+
+#apDiv3 {
+position: absolute;
+width: 200px;
+height: 115px;
+z-index: 1;
+left: -40%;
+/* right: 103%; */
+top: 0px;
+}
+#searchbox {
+	position: absolute;
+	left: 80%;
+	top: 25px;
+}
+#cse {width:80%; height:80%;}	
+
+}
+
+@media screen and (min-width:850px) and (max-width: 969px) {
+body {font-size:75%;}
+#events {font-size:80%!important; padding-left:padding:5px;}
+.navbar .nav > li > a {font-size:160%;}
+#apDiv1 img{
+/*transform*/
+width: 90%; height:80%;
+}
+#searchbox {display:none;}
+#apDiv3, .gsc-control-cse {display:none;}
+.badge-info img {height:25px; width:25px;}
+.label-info, .badge-info {height:35px;}
+.h3tab label {height:32px;}
+.carousel-inner > .item > a > img {margin-top:5px; height:200px;}
+.raquo_menu a {font-size:80%;}
+apDiv1 {width:75%;}
+.small_text p a, .small_text a {font-size:80%;}
+.popup-marker.btn {display:none;}
+#search {text-align:center;}
+.navbar-search {display:none;}
+#Reynoldsbutton {display:none;}
+
+.dropdown-menu > li > a {font-size:140%;}
+.callemailchat {
+	background-image: url(../images/chat247_small.png); height: 72px;
+	width: 177px; background-repeat: no-repeat;
+	margin-top:.5em;
+	
+}	
+.callemailchat a{ display:block;
+	width:100%;
+	height:100%;}
+.callemailchat:hover {background-image: url(../images/chat247_smallhover.png); height: 72px;
+	width: 177px; background-repeat: no-repeat; }
+	.tooltip {display:none;}
+	
+
+a#ui-id-4 {display:none;}
+
+#searchbox {width:70%;}
+.fullcalendar{display:none;}
+
+
+
+}
+
+/*ipad and other profiles devices*/
+@media screen and (min-width:620px) and (max-width:849px){
+
+#apDiv3, .gsc-control-cse {display:none;}	
+	#events {font-size:80%!important; padding-left:padding:5px;}
+	a#ui-id-4 {display:none;}
+#fbtab, #fbtabno {display:none; background-image:none;}
+.dropdown li {font-size:.9em; }	
+#upper .row-fluid .span2 {width:90%; margin-top:1em;}
+#upper {margin-left:10%;}
+.floatright {width:70%;}
+.carousel {display:none;}
+.span3 .thinredborder {margin-top:1em;}
+.row-fluid .span3 {width:40%; display:inline-block; padding-left:0px; margin-left:0px; margin-right:15px;}
+.navbar-search{
+	position: absolute;
+	left: 428px;
+	top: -83px;}
+
+.caltxt {display:none;}
+.tooltip {display:none;}
+.badge-important {width:50%;}
+#search {text-align:center;}
+div.navbar-inner {position:relative;}
+.floatright {display:none;}
+div.navbar-inner {
+	margin-left: 10%;
+}
+.row-fluid .span6 {width:90%;}
+#apDiv5 {display:none;}
+.navbar-inner {display:80%} 
+.nav-collapse.collapse {
+	height: auto;
+	color: #FFF;
+	margin-left: 0%;
+	font-size: auto;
+}
+div.span2 img {display;none;}
+.navbar .nav > li > a {font-size:1.4em; padding-left:10px; padding-right:10px;}
+.yui-content ul li a {font-size:1em;}
+.dropdown {
+	width: 22%;
+	padding-top:0%; paddint-bottom:0%;
+	border: 1px solid #900;	
+	}
+.navbar .nav {margin-left:0px;}
+#apDiv1 {
+	display:none;}
+	
+.hide {display:block; background-color:#990033; }
+.row-fluid .span2 img {display:none;}
+.callemailchat {float:right; margin-top:-100px;margin-right:40px;} .label-warning {width:50%;}
+.popup-marker.btn {display:none;}
+.caltxt a {display:none;}
+a.#tabs-4 {display:none;}
+.labelwarning {width:75%;}
+#todayshours ul {margin-top:10px;}
+#calendarTitle { padding-top:55px; width:200px; }
+#calendarTitle ul li {font-size:90%;}
+.fullcalendar{display:none;}
+header {display:none;}
+.label-warning2 {width:200px;}
+
+}
+
+/*phones*/
+@media screen and (min-width:10px) and (max-width:619px){
+#calendarTitle { padding-top:55px; width:200px; }	
+#calendarTitle ul li {font-size:90%;}	
+	.fullcalendar {float:left;}
+	
+#fbtab, #fbtabno {display:none; background-image:none;}
+.carousel {display:none;}
+#widgetwrapper {display:none;}
+.row-fluid .span3 {
+	width: 98%;
+	margin-left: 1em;
+	margin-right: auto;
+}
+.span2 {width:100%; float:left;}
+#apDiv1 {
+	display: none;
+	top: 2px;
+}
+.tooltip {display:none;}
+.row-fluid .span2 img {display:none;}
+.row-fluid .span6 {width:100%;float:right;}
+.navbar-search{display:none;}
+.dropdown {
+	width: 49%;
+	padding: 0px;
+	border: 1px solid #900;
+}
+.nav-collapse.collapse {
+	height: auto;
+	width:100%;
+	color: #FFF;
+	margin-left: 0%;
+
+}
+.navbar .nav {margin-left:0px;}
+.hide {display:block; background-color:#990033; }
+
+.yui-content ul li 
+
+.yui-content ul li a {
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+	font-weight:normal;
+	
+	
+}
+#search {text-align:center;}
+.navbar .nav > li > a {font-size:13px; padding-top:1px; padding-bottom:1px;}
+.table tr td {font-size:100%;}
+.table-responsive .table thead tr th {font-size:14px;}
+#todayshours ul { margin-top:10px;}
+
+#apDiv4 {display:none;}
+span.small_text p a {font-size:10px; text-align:left;}
+div#tabs-3 p a {font-size:10px; font-weight:normal;}
+div .label-warning {padding-top:1em;
+	width: 95%;
+}
+a#ui-id-1, a#ui-id-2, a#ui-id-3 {font-weight:normal; font-size:70%; padding:none;}
+a#ui-id-4 {display:none;}/*important hides tab*/
+.span3 .thinredborder {margin-top:1em;}
+#apDiv5 {display:none;}
+#upper .row-fluid .span2 {width:100%; float:left; margin-top:.8em; display:inline;}
+.ui-tabs {box-shadow:0px;}
+#todayshours ul {font-size:12px;}
+
+#events {font-size:80%; padding-left:padding:5px;}
+.caltxt a {display:none;}
+.popup-marker.btn {display:none;}
+.row-fluid .span3 {padding:0px; margin:0px;}
+.badge-success {width:80%; margin:.5em;}
+
+#quicksearch {padding-left:1%; padding-right:1%;}
+#Todayshours {font-size:80%;}
+
+#calendarTitle {padding-top:55px;}
+#calendarTitle ul li {font-size:14px; }
+
+#searchbox {display:none;}
+header {display:none;}
+
+
+
+}
+
+@media print {
+
+ .footer {dislay:none;}
+.thinredborder{
+background-color:#ffffff;
+/*box-shadow*/
+-webkit-box-shadow:none;
+   -moz-box-shadow:none;
+        box-shadow:none;
+}

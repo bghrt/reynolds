@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- TemplateBeginEditable name="doctitle" -->
+		<title>Faculty Portal</title>
+		<!-- TemplateEndEditable -->
+		<link rel="icon" 
+      type="image/png" 
+      href="http://meh273.org/images/favicon.png">
+	
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Interactive Rotating Carousel</title>
+		<link rel="stylesheet" type="text/css" href="../portal/includes/carousel.css" />
+        <link rel="stylesheet" type="text/css" href="../css/responsive_subpage.css" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAASDM9cofb-3GenPBG21kzpBQzNk2wzkbosWfMijNsimEr4E4R3hQk3YdjRxwltQnOW5Necn0z6SCVQA">
+  </script>
+<script type="text/javascript" src="../js/gcal2.js"></script>
+		 <script type="text/javascript" src="../portal/includes/jquery-1.6.min.js"></script>
+        	
+	
+		<script type="text/javascript" src="../portal/includes/jquery.roundabout.min.js"></script>
+		<script type="text/javascript" src="../portal/includes/carousel.js"></script>
+       
+  <style>
+  .paddingleft {padding-left:2em;margin-top:.5em;;}
+  </style>    
+ 
+
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 254px;
+	height: 100px;
+	z-index: 1;
+	top: -1;
+	left: 23px;
+}
+
+</style>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+	<body>
+ <div id="all">
+    <div id="apDiv1"><a href="http://meh273.org/index.htm"><img src="../images/rcc-reverse-2.png" width="254" height="74" alt="Reynolds"></a></div>
+<div class="navbar">
+  <div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
+    <div class="container"> <span class="hide"><img src="../images/mobilelogo.png"></span> </div>
+    <div class="nav-collapse">
+      <ul class="nav">
+        <li class="dropdown"> <a href="http://Reynolds.edu/site/home.aspx" >Library Home</a>
+        <li class="dropdown"> <a href="https://jsr.my.vccs.edu/jsp/home.jsp">My Reynolds</a>
+        <li class="dropdown"> <a href="../portal/researchportal.html">Research</a>
+          
+        <li class="dropdown"> <a href="../portal/studentportal.html">Students</a>
+          
+        <li class="dropdown"> <a href="../services/index.html">Services </a>
+          
+         
+<li class="dropdown"> <a href="http://libguides.Reynolds.edu/everything">Guides</a>
+       
+
+        <li class="dropdown"> <a href="../services/ask.htm">Ask</a>
+       
+            
+      </ul>
+      <form class="navbar-search pull-right"form method="get" action="http://www.google.com/search">
+        <input type="radio"  name="sitesearch" value="meh273.org"/>
+        <span class="white_text">Library Site</span>
+        <input type="radio"  name="sitesearch" value="Reynolds.edu" checked />
+        <span class="white_text">Reynolds</span><br />
+        <input type="text"   name="q" size="20" maxlength="255" placeholder="Type and Press Enter" value="" />
+      </form>
+      </li>
+    </div>
+    <!-- /.nav-collapse -->
+  </div>
+  <!-- /.container -->
+</div>
+
+<!--/.nav-collapse -->
+
+
+<!--/.nav-collapse -->
+<header> <span class="floatright">Where Outstanding Learners Get Started</span></header>
+<!--End of the header content-->
+<!-- Example row of columns/ Bottom -->
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row-fluid">
+      <div class="offset1"></div>
+      <div class="row-fluid span3"> <div class="thinredborder">
+    <h3 class="badge-info">START HERE!</h3>
+   <table width="100%" class="table table-hover">
+      <tbody>
+       <tr>
+         <td class="raquo_menu_submenu"><a href="../services/assignmentalertform.html" class="raquo_menu_submenu">Assignment Alert Form</a></td>
+         
+         
+      </tr>
+      <tr>
+         <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu/copyright" class="raquo_menu_submenu">Copyright </a></td>
+         
+      </tr>
+      <tr>
+        <td class="raquo_menu_submenu"><a href="../research/coursereserves.html" class="raquo_menu_submenu">Course Reserves</a></td>
+      <tr>
+       <tr>
+         <td class="raquo_menu_submenu"><a href="../faculty/facultyfaq.html" class="raquo_menu_submenu">Faculty FAQ</a></td>
+         
+         
+      </tr>
+      <tr>
+         <td class="raquo_menu_submenu"><a href="../faculty/worksheets.html" class="raquo_menu_submenu">Handouts For Students</a></td>
+         
+      </tr>
+      
+      <tr>
+        <td class="raquo_menu_submenu"><a href="../faculty/informationliteracy.html" class="raquo_menu_submenu">Information Literacy</a></td>
+         <tr>
+        <td class="raquo_menu_submenu"><a href="../services/libraryinstruction.html" class="raquo_menu_submenu">Instruction Request</a></td>
+      
+       <tr>
+     
+      
+      <tr>
+         <td class="raquo_menu_submenu"><a href="../faculty/libraryliasonprogram.html" class="raquo_menu_submenu">Library Liason Program</a></td>
+         
+      </tr>
+       <tr>
+         <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu/content.php?pid=52049" class="raquo_menu_submenu">Linking from Blackboard</a></td></tr>
+       <tr>
+         <td class="raquo_menu_submenu"><a href="../services/forms.html" class="raquo_menu_submenu">Online Forms</a></td></tr>
+          <tr>
+         <td class="raquo_menu_submenu"><a href="../services/campuses.html" class="raquo_menu_submenu">PDO's for Faculty</a></td>
+         
+      </tr>
+         
+         
+      
+      
+      
+        
+     
+  
+  
+     
+        <td class="raquo_menu paddingtop">
+          &raquo;<a href="../portal/researchportal.html" target="_self">Research Portal</a>
+       </td>
+     
+       
+      <tr>
+        <td class="raquo_menu paddingtop">&raquo;<a href="../portal/studentportal.html" target="_self">Student Portal</a></td>
+      <tr>
+      <tr>
+        <td class="raquo_menu paddingtop">&raquo;<a href="../services/index.html" target="_self">Services Portal</a><br></td>
+       
+      <tr>
+      <tr>
+       
+       
+      <tr>
+       
+     
+    </table>
+  
+  </div>
+   </div>
+   
+		
+      <!-- TemplateBeginEditable name="main" -->
+      <div class="span6">
+    <h3 class="badge-important">Faculty Portal</h3>        
+ <div class="my_carousel">
+			<!-- Carousel Containter -->
+			<div class="carousel_container">
+				<div id="carousel"></div>
+				<img class="nextItem" src="../portal/images/arrow_left.png"/>
+				<img class="prevItem" src="../portal/images/arrow_right.png"/>
+			</div>
+			
+			<!-- Caption Container -->
+			<div class="caption_container">
+				<div id="captions"></div>
+			</div>
+			
+			<img src="../portal/images/leaves.png" class="leaves"/>
+			
+			<!-- Carousel Data -->
+			<div class="carousel_data">
+				
+				<!-- begin items -->
+
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image"> <img src="../portal/images/chronicleofhighered.png" alt="ChronicleofHigherEd" /></a>
+					</div>
+					<div class="caption">
+						<h2>The Chronicle of Higher Ed</h2>
+						<p>The Chronicle of Higher Education is the No. 1 source of news, information, and jobs for college and university faculty members and administrators. </p><h3> <a href="http://library.vccs.edu/license-bin/linker.plx?xsrcron">Check it out here!</a></h3>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="../portal/images/grit.png" alt="grit" />
+					</div>
+					<div class="caption">
+						<h2>What if the Secret to Success is Failure</h2>
+						<p>Dominic Randolph can seem a little out of place at Riverdale Country School — which is odd, because he’s the headmaster. Riverdale is one of New York City’s most prestigious private schools, with a 104-year-old campus that looks down grandly on Van Cortlandt Park from the top of a steep hill in the richest part of the Bronx. On the discussion boards of UrbanBaby.com, worked-up moms from the Upper East Side argue over whether Riverdale sends enough seniors to Harvard, Yale and Princeton to be considered truly “TT” (top-tier, in UrbanBabyese), or whether it is more accurately labeled “2T” (second-tier), but it is, certainly, part of the city’s private-school elite, a place members of the establishment send their kids to learn to be members of the establishment. Tuition starts at $38,500 a year, and that’s for prekindergarten.. </p><h3><a href="http://www.nytimes.com/2011/09/18/magazine/what-if-the-secret-to-success-is-failure.html?pagewanted=all&_r=0">Read It All Here</a></h3>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="../portal/images/teachingprofessor.png" alt="teachingprofessor" />
+					</div>
+					<div class="caption">
+						<h2><em>Teaching Professor</em>"Getting Students to Talk About Those Dissapointing Grades"</h2>
+						<p>Handing back graded work or posting grade results is not usually a favorite course event for teachers. There are always those students disappointed in their grades. Some simply look disappointed; others quickly switch from disappointment to anger. A few take it up with the teacher after class. Still fewer show up during office hours to talk about the grade. Bottom line: Most students don’t talk with their teachers about those grades they don’t think they deserve, though they should, for their own benefit and the teacher’s. Students can get additional feedback that may help them understand the grade and avoid similar mistakes on subsequent assignments. Teachers can learn how students understood the goals of the activity.</p><h3><a href="http://library.vccs.edu/license-bin/linker.plx?xsrtprof"> Check it out</a>.</h3></div>
+				</div>			
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="../portal/images/ipadapps.png" alt="ipadapps" />
+					</div>
+					<div class="caption">
+						<h2>55 or the best free educational apps for iPads</h2>
+						<p>Finding apps isn’t difficult. Finding education apps is only a bit more challenging. Finding free education apps is also possible. Finding free education apps worth downloading is a different story entirely.
+
+The following is our list for the 55 best apps for learning we can find. Some are formal learning–math drilling and phonics, for example–while others are RSS readers, social media platforms, and the like. These are purposely not all purely academic, “training” apps that focus on individual skills, but rather the an array of apps students could use daily to improve their ability to think, connect, and use information.</p><h3><a href="http://www.teachthought.com/apps-2/the-55-best-best-free-education-apps-for-ipad/"> Check it out!</a> </h3>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="../portal/images/hackingtheacademy.png" alt="hacking the academy" />
+					</div>
+					<div class="caption">
+						<h2>Hacking the Academy</h2>
+						<p>“Can an algorithm edit a journal? Can a library exist without books? Can students build and manage their own learning management platforms? Can a conference be held without a program? Can Twitter replace a scholarly society?”
+
+As recently as the mid-2000s, questions like these would have been unthinkable. But today serious scholars are asking whether the institutions of the academy as they have existed for decades, even centuries, aren’t becoming obsolete. Every aspect of scholarly infrastructure is being questioned, and even more importantly, being hacked. Sympathetic scholars of traditionally disparate disciplines are canceling their association memberships and building their own networks on Facebook and Twitter. Journals are being compiled automatically from self-published blog posts. Newly minted PhDs are forgoing the tenure track for alternative academic careers that blur the lines between research, teaching, and service. Graduate students are looking beyond the categories of the traditional CV and building expansive professional identities and popular followings through social media. Educational technologists are “punking” established technology vendors by rolling out their own open source infrastructure.</p><h3> <a href="http://vcc-aleph.hosted.exlibrisgroup.com/F/USD7YYQ7M4VJ5FDMUB568DIRXFDMFANPAS7CLPEY76JMMNYCYH-14192?func=full-set-set&set_number=003306&set_entry=000020&format=999">Check it out!</a></h3>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="../portal/images/safeassign2.png" alt="safeassign" />
+					</div>
+					<div class="caption">
+						<h2>How to Use Safe Assign</h2>
+						<p>SafeAssign is a plagiarism prevention service, offered by Blackboard.  This service helps educators prevent plagiarism by detecting unoriginal content in student papers.  In addition to acting as a plagiarism deterrent, it also has features designed to aid in educating students about plagiarism and the importance of proper attribution of any borrowed content. 
+
+SafeAssign is centrally hosted by Blackboard. </p><h3><a href="http://www.cod.edu/It/blackboard/SafeAssign/SafeAssignFAQ.htm">Check it out!</a></h3>
+					</div>
+				</div>
+								
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="../portal/images/howigotintocollege.png" alt="how i got into college" />
+					</div>
+					<div class="caption">
+						<h2>Randy Pausch Last Lecture: Achieving Your Childhood Dreams</h2>
+						<p>Carnegie Mellon Professor Randy Pausch (Oct. 23, 1960 - July 25, 2008) gave his last lecture at the university Sept. 18, 2007, before a packed McConomy Auditorium. In his moving presentation, "Really Achieving Your Childhood Dreams," Pausch talked about his lessons learned and gave advice to students on how to achieve their own career and personal goals.</p><h3><a href="https://www.youtube.com/watch?v=ji5_MqicxSo"> Check it out!</a></h3>
+					</div>
+				</div>
+				
+				<!-- end items -->
+				
+		</div>			
+		</div>
+        </div>
+       <!--divspan6-->
+      
+      
+  
+      
+      <!-- TemplateEndEditable -->
+      <div class="span2">
+         <div class="paddingleft">
+
+ 
+
+
+  
+ 
+  <p class="text-success"> <div id="widgetwrapper"> 
+  <h3><img src="../images/chatred.png"  alt="chat"/> Chat:</h3>
+    <p class="btn"><a href="../services/ask.htm">Chat Here</a></p>
+  <h3><img src="../images/phoneiconred.png"  alt=""/>Call:</h3>
+  <p><strong>Downtown</strong>: <br>
+    804-523-5211 <br> <strong>Parham:</strong> <br>
+    804-523-5220 <strong>Goochland</strong>: <br>
+    804-523-5419 </p>
+  <h3><img src="../images/emailicon.png"  alt="" width="41" height="26"/> Email:</h3>
+  <p><a href="mailto:library@reynolds.edu"><strong>library@reynolds.edu</strong></a></p>
+  <h3><img src="../images/connectrad.png"  alt="connectviasocialnetworks"/> Connect:</h3>
+  <img name="socialmedia" src="../images/socialmedia.png" id="socialmedia" usemap="#m_socialmedia" alt="socialmedia" />
+<map name="m_socialmedia" id="m_socialmedia">
+  <area shape="rect" coords="0,-1,49,38" href="https://www.facebook.com/JSRlibrary" alt="facebook" />
+  <area shape="rect" coords="48,1,89,40" href="https://twitter.com/ReynoldsLibrary" target="_blank" alt="twitter" />
+  <area shape="rect" coords="93,3,132,39" href="http://Reynoldslibrary.wordpress.com/" target="_parent" alt="wordpress" />
+</map>
+
+</div>
+</div>
+</div>      
+</div>
+</div>
+
+
+<!--Row div-->
+<div class="footer"><div class="container"><div class="row-fluid">     
+<div class="span3">
+<p><strong>Downtown Library</strong></p>
+  <p>Room 231 
+  700 E. Jackson Street,<br> Richmond, VA 23219<br>
+  Phone: 804-523-5211</p>
+  <p>Regular Hours: <br>
+Monday - Thursday: 7:45 am - 9:00 pm<br>
+Friday: 7:45 am - 5:00 pm <br>
+Saturday: 8:00 am - 12:00 pm<br>
+Sunday: Closed</p>
+  <p><br></p>
+  </div>
+  <div class="span3">
+    <p><strong>Goochland Library</strong></p><p>Room 200, Building C20 1851 Dickinson Road,<br> Goochland, VA  23063<br>
+Phone: 804-523-5220
+  <p>Regular Hours: <br>
+    Monday - Thursday: 8:30 am - 7:30 PM<br>
+    Friday: 8:30 am - 5:00 pm <br>
+    Saturday &amp; Sunday: Closed</p>
+  <p></p>
+  </div>
+  <div class="span3">
+    <p><strong>Parham Road Library</strong></p>
+    <p>Room 103, Massey LTC<br>     
+    1651 East Parham Road, <br>Richmond, VA 23228
+      804-523-5419<br>
+    <p>
+Regular Hours: <br>
+Monday - Thursday: 7:45 am - 9:00 pm<br>
+Friday: 7:45 am - 5:00 pm <br>
+Saturday: 12:00 pm - 4:00 pm<br>
+Sunday: Closed</p>
+  </div>
+  <div class="span3">
+   <p><strong> Reynolds Community College</strong><br><p>
+
+      PO BOX 85622 <br>
+      Richmond, Virginia, USA 23285-5622 <br> (804) 371-3000
+   </p>
+  </div></div>
+
+  </div></div></div></div>
+<!--Footer after container-->
+<!-- Le javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>
+<!-- container -->
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>RALC :: Richmond Academic Library Consortium</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <link href="../_css/ralc.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+    <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+	<div id="banner_top">
+    	<a href="../default.htm"><img src="../images/ralc_logo.png" alt="RALC Logo"/></a>    </div>
+
+<!-- TemplateBeginEditable name="nav" -->
+    <div id="navbar">
+        <ul class="nav">
+            <li><a href="../default.htm">Home</a></li>
+			<li><a href="http://library.Reynolds.edu/ralc/about/">About Us</a> </li>
+          	<li><a href="http://library.Reynolds.edu/ralc/bylaws/">Bylaws</a> </li>            
+            <li><a href="http://library.Reynolds.edu/ralc/catalogs/">Catalogs</a></li>
+          	<li><a href="http://library.Reynolds.edu/ralc/committees/">Committees</a></li>
+            <li><a href="http://library.Reynolds.edu/ralc/initiatives/">Initiatives</a> </li>
+            <li><a href="http://library.Reynolds.edu/ralc/members/">Members</a></li>
+         	<li><a href="http://library.Reynolds.edu/ralc/statistics/">Statistics</a></li>        </ul>
+      </ul>
+    </div> <!-- closes navbar-->
+<!-- TemplateEndEditable -->
+
+    <div id="content">
+    	<div class="col_wrapper">
+    <!-- TemplateBeginEditable name="body" -->
+    <p>body</p>
+    <p>&nbsp;  </p>
+    <!-- TemplateEndEditable -->
+    	</div><!-- closes col_wrapper -->
+   	</div><!-- closes content -->
+    <div class="clear_footer"></div>
+</div><!-- closes container -->
+
+
+<div id="footer">
+    <p class="nav_bottom">Copyright &copy;1998-2015 Richmond Academic Library Consortium<br />
+   	  Last Updated: 
+   	    <!-- TemplateBeginEditable name="date" -->
+   	    <!-- #BeginDate format:Am1 -->April 15, 2015<!-- #EndDate -->
+    <!-- TemplateEndEditable -->    </p>
+</div> <!-- closes bottom_nav-->
+
+<!-- Google Analytics Code -->    
+
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42159688-1', 'Reynolds.edu');
+  ga('send', 'pageview');
+
+</script> 
+<!--Crazy egg--> 
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/7044.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+</html>

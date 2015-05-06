@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* Written by Amanda Hartman */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8em;
+	background-attachment: fixed;
+	background-color: #000;
+	background-image: url(../images/globe5.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;	/*Image used under Creative Commons license. Credit for image: flickr user rogiro -- http://www.flickr.com/photos/riot/71878108/ */	
+}
+
+h1 { 
+	font-size: 150%;
+	color: #a32638;
+	text-align: left;
+}
+
+h2 { 
+	font-size: 120%;
+	color: #a32638;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+h3 { 
+	font-size: 100%;
+	color: #a32638;
+	margin: 5px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px;
+	line-height: 1.35em;
+}
+
+ul {
+	margin-bottom: 4px;
+}
+
+li {
+	margin-left: 40px;
+}
+
+.small_text {
+	font-size: 90%;
+}
+
+a {
+	color: #a32638;
+	text-decoration: underline;
+}
+
+.throughbooks {background-color:#a32638; padding:.5em; color:white; border-radius:5px; }
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+.blacktext {
+	color:#000000;
+}
+
+/* The Layout - banner, main area, navigation, footer */
+
+#container { /* all of the content floating in the center of the page */
+	margin: 0 auto;
+	margin-top: 25px;
+	position: relative;
+	width: 60%;
+	min-width: 800px;
+	background: url(../images/bkg_paper.jpg) repeat;
+	border: #000 solid 1px;
+}
+
+#banner_top {
+	background: url(../images/bookrow.jpg) left  #fff;
+	/* Image used under Creative Commons license from flickr user fil -- http://www.flickr.com/photos/fil/3151423/ */
+	height:	140px;
+	padding: 5px;
+	text-align: center;
+	border-bottom: #a32638 solid 2px;
+
+}
+
+#banner_top h1 {
+	font-size: 350%;
+	font-weight: 700;
+	color: #a32638;
+	text-align: center;}
+
+
+#banner_top h2 {
+	font-size: 170%;
+	color: white;
+	text-align: center;
+	background:#006699;
+	border-radius:10px;
+	margin-bottom:1em;
+	
+}
+
+#content {
+	position: relative;
+	padding: 10px;
+}
+
+#content img{
+	margin: 5px;
+}
+
+/* Main Navigation */
+#navbar {
+	position: relative;
+	margin-top: -29px;
+}
+
+#navbar ul {
+	list-style: none;
+	margin: 0; 
+	padding: 0; 
+	width: 100%;
+}
+
+#navbar li {
+	display: inline;
+	float: left;
+}
+
+#navbar li a {
+	display: block;
+	background: #a32638;
+	line-height: 2em;
+ 	width: 7.5em;
+	border-top: 1px solid #a32638;
+	border-left: 1px solid #a32638;
+	border-right: 1px solid #a32638;
+	border-bottom: none;
+	text-align: center;
+	font-size: 115%;
+	color: #fff;
+	text-decoration: none;
+}
+
+#navbar li a:hover {
+	background: url(../images/bkg_paper.jpg) #EFCA95;
+	color: #000;
+	text-decoration: underline;
+	border-top: 1px solid #a32638;
+	border-left: 1px solid #a32638;
+	border-right: 1px solid #a32638;
+	border-bottom: none;
+}
+
+#navbar li a.active {
+	background: url(../images/bkg_paper.jpg) #EFB159;
+	color: #000;
+	text-decoration: none;
+	border-top: 1px solid #a32638;
+	border-left: 1px solid #a32638;
+	border-right: 1px solid #a32638;
+	border-bottom: none;
+}
+
+/* Bottom Navigation */
+#footer {
+	position: relative;
+	background-color:#a32638;
+}
+
+#footer p {color:white; padding:.5em; margin-bottom:0px;}
+
+.nav_bottom {
+	font-size: 95%;
+	color: #a32638;
+	line-height: 1.5em;
+	height: 95px;
+}
+
+.nav_bottom img{
+	float: right;
+	margin: 5px;
+	margin-right: -10px;
+}
+
+a.nav_bottom {
+	color: #a32638;
+	text-decoration: underline;
+}
+
+a.nav_bottom:hover {
+	color: #a32638;
+	text-decoration: none;
+}
+
+/* Specific for each page */
+
+.section {
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.spacer { /* Spacer on either end of the floats will give the thumbnails space */
+  clear: both;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+/*Table */
+table {
+	border: 1px solid #0D1F6F;
+	margin-top: 5px;
+}
+
+th {
+	font: bold 11px;
+	color: #0D1F6F;
+	letter-spacing: .025em;
+	text-transform: capitalize;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #C3DDDF;
+	border-bottom: 1px solid #0D1F6F;
+}
+
+th.spec {	
+	background: #fff;
+	font: bold 10px;
+	border: 0;
+}
+
+th.specalt {
+	background: #EFEFD6;
+	font: bold 10px;
+	color: #0D1F6F;
+	border: 0;
+}
+
+td {
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #0D1F6F;
+}
+
+
+td.alt {
+	background: #EFEFD6;
+	color: #303D6F;
+}
+
+/* Images */
+img.bookcover {
+	float: right;
+	padding: 2px;
+}
+
+img.author {
+	float: left;
+	padding: 2px;
+}

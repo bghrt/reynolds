@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Quick Search Box</title>
+
+<script type="text/javascript">
+function validateForm()
+{
+        var x=document.forms.primo.query.value;
+        if (x==null || x=="")
+        {
+                alert("Enter your search words");
+                return false;
+        } else {
+                document.forms.primo.query.value="any,contains,"+x;
+        }
+}
+</script>
+<style type="text/css">
+#primowrapper {
+	color: #F0F0F0;
+	background-color: #900;
+	width: 552px;
+	border-top-width: 25px;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #660;
+	border-right-color: #933;
+	border-bottom-color: #933;
+	border-left-color: #933;
+	height: 100px;
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.primosearchboxpadding {
+	padding-top: 40px;
+	padding-left: 25px;
+	
+}
+.boxhyperlinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #960;
+	background-color: #C60;
+}
+.boxhyperlinks a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-top: -10px;
+}
+.boxhyperlinks a:hover {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: underline;
+	padding-left: 1em;
+	padding-top: -10px;
+}
+.searchboxstyle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #960;
+	width: auto;
+	height: 30px;
+	border: thin solid #FFF;
+	font-weight: bold;
+	padding-top: 0px;
+}
+.searchboxsiz {
+	height: 21px;
+	width: 300px;
+	padding-bottom: 0px;
+}
+#apDiv1 {
+	position:absolute;
+	width:549px;
+	height:30px;
+	z-index:1;
+	left: 3px;
+	top: 76px;
+	background-color: #900;
+}
+#apDiv2 {
+	position:absolute;
+	width:482px;
+	height:97px;
+	z-index:2;
+	top: -32px;
+	left: 63px;
+}
+#apDiv3 {
+	position:absolute;
+	width:457px;
+	height:17px;
+	z-index:1;
+	top: -18px;
+	left: 18px;
+}
+</style>
+</head>
+
+<body>
+<div id="primowrapper"><div id="apDiv3">Quick Search @ J. Sargeant Reynolds Library</div>
+  <div id="apDiv2">
+  <form action="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/dlSearch.do?" method="get" enctype="application/x-www-form-urlencoded; charset=utf-8" name="primo" target="_blank" class="primosearchboxpadding" onsubmit="return validateForm()">
+    <p>
+      <input name="tab" type="hidden" value="default_tab" /> 
+      <input name="institution" type="hidden" value="Reynolds" /> <input name="onCampus" type="hidden" value="false" /> <input name="indx" type="hidden" value="1" /> <input name="dum" type="hidden" value="true" /> <input name="vid" type="hidden" value="Reynolds" /> <input name="group" type="hidden" value="GUEST" /> <input name="search_scope" type="hidden" value="J. Sargeant Reynolds" /> <input name="query" type="text" class="searchboxsiz" size="45" placeholder="Search articles, books, media, and more." />
+  <input name="Submit" type="submit" class="searchboxstyle" value="Search" />
+    </p>
+  </form> </div>
+ 
+<div id="apDiv1">
+  <p class="boxhyperlinks"><a href="http://libguides.Reynolds.edu/index.php">Advanced Search</a> <a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=Reynolds" target="_parent">  Reserves</a>  <a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=Reynolds" target="_new">  Cite Sources</a><a href="http://libguides.Reynolds.edu/cite" target="_parent"> </a><a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=Reynolds" target="_new">  Databases</a><a href="http://libguides.Reynolds.edu/subject" target="_parent"> </a>
+  <a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=Reynolds" target="_new">  Workshops</a>
+</div>
+</div>
+</body>
+</html>

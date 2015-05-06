@@ -1,0 +1,14 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1">
+  <p>So this is obviously the entire website.  How do I know that?  It's not just the .com, but also look at the formatting.  Yup.  Italics.  Just like books, newspapers, journals and magazines... websites are always in italics </p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

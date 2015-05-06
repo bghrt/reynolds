@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    <xs:element name="month" type="MonthType"/>
+    <xs:complexType name="MonthType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="link" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="language" type="xs:string"/>
+            <xs:element name="lastBuildDate" type="xs:string"/>
+            <xs:element name="item" type="ItemType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ItemType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="link" type="xs:string"/>
+            <xs:element name="callno" type="xs:string"/>
+            <xs:element name="collection" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="rec" type="xs:string"/>
+        <xs:attribute name="month" type="xs:string"/>
+    </xs:complexType>
+</xs:schema>
