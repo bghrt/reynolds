@@ -6,11 +6,13 @@
 <file name="research.dwt" server="Y:/" local="130532765410000000" remote="130532765410000000" Dst="2" />
 <file name="services2.dwt" server="Y:/" local="130532765097670754" remote="130532765090000000" Dst="2" />
 <file name="students.dwt" server="Y:/" local="130532764659358434" remote="130532764650000000" Dst="2" />
-<file name="faculty.dwt" server="//sr11dweb01/library/" local="130730611635674329" remote="130730611630000000" Dst="2" />
+<file name="faculty.dwt" server="//sr11dweb01/library/" local="130760184707665170" remote="130760184700000000" Dst="2" />
 <file name="facultyportal.dwt" server="//sr11dweb01/library/" local="130604748685172207" remote="130604748680000000" Dst="2" />
 <file name="navbarfixedtemplate.dwt" server="//sr11dweb01/library/" local="130604748685342207" remote="130604748680000000" Dst="2" />
-<file name="RALC.dwt" server="//sr11dweb01/library/" local="130731456522865157" remote="130731456520000000" Dst="2" />
-<file name="research.dwt" server="//sr11dweb01/library/" local="130718480219773859" remote="130718480210000000" Dst="2" />
-<file name="services2.dwt" server="//sr11dweb01/library/" local="130718479266773859" remote="130718479260000000" Dst="2" />
-<file name="students.dwt" server="//sr11dweb01/library/" local="130718479897823859" remote="130718479890000000" Dst="2" />
+<file name="RALC.dwt" server="//sr11dweb01/library/" local="130735978832797020" remote="130735978830000000" Dst="2" />
+<file name="research.dwt" server="//sr11dweb01/library/" local="130760183317555170" remote="130760183310000000" Dst="2" />
+<file name="services2.dwt" server="//sr11dweb01/library/" local="130760184159525170" remote="130760184150000000" Dst="2" />
+<file name="students.dwt" server="//sr11dweb01/library/" local="130760180367615170" remote="130760180360000000" Dst="2" />
+<file name="mlagame.dwt" server="//sr11dweb01/library/" local="130749821421835707" remote="130749821420000000" Dst="2" />
+<file name="mlagame.html" server="//sr11dweb01/library/" local="130749820296135707" remote="130749820290000000" Dst="2" />
 </dwsync>

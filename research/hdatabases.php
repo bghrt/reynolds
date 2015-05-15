@@ -126,8 +126,8 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
           </ul>
         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="http://libguides.Reynolds.edu/everything">Subject Guides</a></li>
-            <li><a href="http://libguides.Reynolds.edu/content.php?pid=546628&sid=4499008">Class Guides</a></li>
+            <li><a href="http://libguides.Reynolds.edu">Subject Guides</a></li>
+            <li><a href="http://libguides.reynolds.edu/friendly.php?action=82&s=courseguides">Class Guides</a></li>
             <li><a href="http://libguides.Reynolds.edu/sdv100new">SDV100</a></li>
             <li><a href="http://libguides.Reynolds.edu/research">Research at Reynolds</a></li>
             <li><a href="http://libguides.Reynolds.edu/mla">MLA/APA</a></li>
@@ -216,10 +216,10 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
                 <td class="raquo_menu_submenu" id="journals"><a href="findjournal.html" class="raquo_menu_submenu">Search Journals</a></td>
               </tr>
               <tr>
-                <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu/everything" class="raquo_menu_submenu">Research Guides</a></td>
+                <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu" class="raquo_menu_submenu">Research Guides</a></td>
               </tr>
               <tr>
-                <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu/content.php?pid=546628&amp;sid=4499486" class="raquo_menu_submenu">How Do I?</a></td>
+                <td class="raquo_menu_submenu"><a href="http://libguides.reynolds.edu/howdoi" class="raquo_menu_submenu">How Do I?</a></td>
               </tr>
               <tr>
                 <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu/cite" class="raquo_menu_submenu">Cite Sources</a></td>
@@ -332,7 +332,7 @@ Phone: 804.523.5419
     <p><strong>Parham Road Library</strong></p>
     <p>Room 103 <br> Massey LTC<br>     
     1651 East Parham Road <br>Richmond, VA 23228<br>
-      804.523.5220<br>
+      Phone: 804.523.5220<br>
     <p>
 Regular Hours: <br>
 Monday - Thursday: 7:45 am - 9:00 pm<br>

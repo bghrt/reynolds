@@ -135,10 +135,27 @@ Navigation Centering .gui-navset .gui-nav li, .gui-navset .gui-navset-top .gui-n
 #Tabs1 #tabs-1 .center {
 	margin-right: auto;
 }
-.center form input {
+.center form input{
 	width: 55%;
 	height: 30px;
 }
+
+ #s-lg-embedded-search-widget-1431626565942 { border-radius:15px; } 
+ 
+#s-lg-embedded-search-widget-1431627916371 .s-lg-btn{ 	width: 65px;
+	height: 37px!important;
+	border: thin solid #8c0000;
+	margin-top: 5px;
+	background-color: white;
+	/*border-radius*/
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	color: black;
+	font-size: .9em;
+	text-align: center; margin-top:20px;}
+ 
+ 
 .center form .submit {
 	width: 65px;
 	height: 40px;
@@ -293,7 +310,7 @@ ttit {
 .center form {
 	margin-top: 15px;
 }
-#lg_search_btn {
+#lg_search_btn, #s-lg-embedded-search-widget-1431626565942 .s-lg-btn {
 	width: 65px;
 	height: 40px;
 	border: thin solid #a22137;
@@ -309,7 +326,7 @@ ttit {
 	margin-top: 20px;
 	text-align: center;
 }
-input#lg_search_box {
+input#lg_search_box, #s-lg-guide-search  {
 	padding-right: 14px;
 	padding-right: 4px \9;
 	padding-left: 14px;
@@ -321,9 +338,29 @@ input#lg_search_box {
 	width: 55%;
 	height: 30px;
 }
+
+
+#s-lg-embedded-search-widget-1431627916371 .s-lg-form-control {height:35px!important; border-radius:15px!important;}
 #tabs-4 a {
 	color: #a22137;
 }
 #tabs-4 p {
 	text-align: left;
 }
+
+.importantnote {background-color: yellow; color:black; font-size:1.2em;  }
+
+.cse input.gsc-input, input.gsc-input {
+background-image:url(../images/images/searchthissite.png)!important;
+background-repeat:no-repeat;
+background-color:#fff;
+}
+
+.cse input.gsc-input:focus, input.gsc-input:focus {
+background-image:none !important;
+}
+
+#s-lg-embedded-search-widget-1431630114283 .s-lg-form-control {width:62%!important; height:35px!important; border-radius:15px!important; margin-top:15px!important;}
+
+#s-lg-embedded-search-widget-1431630114283 .s-lg-btn {background:white; height:37px!important; color:black; text-align:center; font-size:13px; margin-top:22px!important; }
+

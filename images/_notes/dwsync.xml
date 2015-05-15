@@ -498,7 +498,7 @@
 <file name="favicon.ico" server="//sr11dweb01/library/" local="130380249980000000" remote="130380249980000000" Dst="2" />
 <file name="favicon.png" server="//sr11dweb01/library/" local="130747210055433719" remote="130747210050000000" Dst="2" />
 <file name="jsr-logo2.png" server="//sr11dweb01/library/" local="130747844738272959" remote="130747844730000000" Dst="2" />
-<file name="mobilelogo.png" server="//sr11dweb01/library/" local="130747210820713719" remote="130747210820000000" Dst="2" />
+<file name="mobilelogo.png" server="//sr11dweb01/library/" local="130759078836628757" remote="130759078830000000" Dst="2" />
 <file name="databaselogo.png" server="//sr11dweb01/library/" local="130546869600549373" remote="130546869600000000" Dst="2" />
 <file name="articles_databases.png" server="//sr11dweb01/library/" local="130546869398369373" remote="130546869390000000" Dst="2" />
 <file name="researchguides.png" server="//sr11dweb01/library/" local="130546870339589373" remote="130546870330000000" Dst="2" />
@@ -518,7 +518,7 @@
 <file name="connectrad.png" server="//sr11dweb01/library/" local="130546869594119373" remote="130546869590000000" Dst="2" />
 <file name="socialmedia.png" server="//sr11dweb01/library/" local="130546870562349373" remote="130546870560000000" Dst="2" />
 <file name="clock2.fw.png" server="//sr11dweb01/library/" local="130546869642589373" remote="130546869640000000" Dst="2" />
-<file name="offcampusaccess2.png" server="//sr11dweb01/library/" local="130668682470000000" remote="130668682470000000" Dst="2" />
+<file name="offcampusaccess2.png" server="//sr11dweb01/library/" local="130747211257393719" remote="130747211250000000" Dst="2" />
 <file name="ralc.jpg" server="//sr11dweb01/library/" local="130475762300000000" remote="130475762300000000" Dst="2" />
 <file name="VCCS.jpg" server="//sr11dweb01/library/" local="130475762320000000" remote="130475762320000000" Dst="2" />
 <file name="VIVA.jpg" server="//sr11dweb01/library/" local="130475762320000000" remote="130475762320000000" Dst="2" />
@@ -733,6 +733,6 @@
 <file name="wordpress2.jpg" server="//sr11dweb01/library/" local="130475762340000000" remote="130475762340000000" Dst="2" />
 <file name="wordpress2.png" server="//sr11dweb01/library/" local="130546871447619373" remote="130546871440000000" Dst="2" />
 <file name="x.png" server="//sr11dweb01/library/" local="130546871508519373" remote="130546871500000000" Dst="2" />
-<file name="requesthisitem.png" server="//sr11dweb01/library/" local="130734904250000000" remote="130734904250000000" Dst="2" />
+<file name="requesthisitem.png" server="//sr11dweb01/library/" local="130747211479913719" remote="130747211470000000" Dst="2" />
 <file name="firefox_hoopla.png" server="//sr11dweb01/library/" local="130747078848383600" remote="130747078840000000" Dst="2" />
 </dwsync>
