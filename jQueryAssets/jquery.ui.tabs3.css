@@ -141,22 +141,9 @@ Navigation Centering .gui-navset .gui-nav li, .gui-navset .gui-navset-top .gui-n
 }
 
  #s-lg-embedded-search-widget-1431626565942 { border-radius:15px; } 
+
  
-#s-lg-embedded-search-widget-1431627916371 .s-lg-btn{ 	width: 65px;
-	height: 37px!important;
-	border: thin solid #8c0000;
-	margin-top: 5px;
-	background-color: white;
-	/*border-radius*/
-	-webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	color: black;
-	font-size: .9em;
-	text-align: center; margin-top:20px;}
- 
- 
-.center form .submit {
+.center form .submit, #lg_search_btn, #s-lg-embedded-search-widget-1431626565942 .s-lg-btn  {
 	width: 65px;
 	height: 40px;
 	border: thin solid #8c0000;
@@ -310,22 +297,7 @@ ttit {
 .center form {
 	margin-top: 15px;
 }
-#lg_search_btn, #s-lg-embedded-search-widget-1431626565942 .s-lg-btn {
-	width: 65px;
-	height: 40px;
-	border: thin solid #a22137;
-	margin-top: 5px;
-	background-color: white;
-	/*border-radius*/
-	-webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	color: black;
-	font-size: .9em !important;/*overwriting libguides API*/
-	margin-left: 4px;
-	margin-top: 20px;
-	text-align: center;
-}
+
 input#lg_search_box, #s-lg-guide-search  {
 	padding-right: 14px;
 	padding-right: 4px \9;
@@ -360,7 +332,18 @@ background-color:#fff;
 background-image:none !important;
 }
 
-#s-lg-embedded-search-widget-1431630114283 .s-lg-form-control {width:62%!important; height:35px!important; border-radius:15px!important; margin-top:15px!important;}
+#s-lg-embedded-search-widget-1431630114283 .s-lg-form-control {width:61%!important; height:35px!important; border-radius:15px!important; margin-top:15px!important;}
 
-#s-lg-embedded-search-widget-1431630114283 .s-lg-btn {background:white; height:37px!important; color:black; text-align:center; font-size:13px; margin-top:22px!important; }
+#s-lg-embedded-search-widget-1431630114283 .s-lg-btn {background:white; height:39px!important; color:black; text-align:center; font-size:1em; margin-top:23px!important; box-shadow:none; font-size:.9em!important;width:65px; }
 
+#s-lg-embedded-search-widget-1431630114283 .s-lg-btn {
+
+
+  padding-top: 1px;
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}

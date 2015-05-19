@@ -262,7 +262,7 @@ div#event_desc{display:none}
 .table. thead tr th strong a{color:#fff}
 .dropdown .dropdown-menu.myReynolds{height:220px;width:200px;padding-top:1em}
 .myReynolds label{margin:1.2em;border-color:#900;border-width:1px;border-style:solid;background-color:#900;color:#fff;font-size:1.3em;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:.1em 50% .1em 1em;font-style:normal;font-family:'Open Sans',sans-serif}
-.myReynolds input{height:1.4em;width:80%;-webkit-border-radius:7px;border-radius:7px;margin:.9em}
+.myReynolds input{height:1.6em;width:80%;-webkit-border-radius:7px;border-radius:7px;margin:.9em; font-style:normal; font-size:1.6em;}
 .myReynolds .btn{height:30px;width:90%;margin-left:10px;color:#000;margin-top:10px;font-size:1.5em}
 .Reynoldssearch{background-color:#fff;color:#a32638;padding-bottom:2px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;margin-top:1px;height:90%;padding-right:12px}
 .carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;margin-left:-30%;padding-left:0;list-style:none;text-align:center}
@@ -327,3 +327,5 @@ li.caltxt{list-style:none}
 #api_upc_cid566_iid79{border-radius:10px}
 .s-lc-ea-treg a,.s-lc-ea-treg td a,s-lc-ea-l a,.s-lc-ea-tb a{text-decoration:underline;font-size:14px}
 .s-lc-ea-treg a:hover,.s-lc-ea-treg td a:hover,s-lc-ea-l a:hover,.s-lc-ea-tb a:hover{color:#000!important}
+
+.s-lc-ea-noe {font-size:1.6em; margin: .5em;}
