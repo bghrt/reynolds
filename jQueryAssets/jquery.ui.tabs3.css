@@ -163,7 +163,7 @@ Navigation Centering .gui-navset .gui-nav li, .gui-navset .gui-navset-top .gui-n
 	font-weight: normal;
 	padding-left: 2px;
 	padding-right: 2px;
-	padding-top: 1px;
+	padding-top: 1px; position:relative;
 
 }
 .smaller_text p a, smaller_text a {
@@ -326,6 +326,9 @@ input#lg_search_box, #s-lg-guide-search  {
 background-image:url(../images/images/searchthissite.png)!important;
 background-repeat:no-repeat;
 background-color:#fff;
+height:12px!important;
+margin:0px 0px 7px 0px!important;
+font-size:10px!important;
 }
 
 .cse input.gsc-input:focus, input.gsc-input:focus {

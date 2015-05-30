@@ -299,7 +299,7 @@ input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-
 .span6 .label-warning{text-align:left}
 li.caltxt{list-style:none}
 .caltxt a{float:right;font-size:.9em;position:absolute;top:90%;left:60%}
-#quicksearch{padding-left:13%;padding-right:13%}
+#quicksearch{padding-left:1%;padding-right:1%}
 #todayshours ul{margin-top:5px;list-style:none}
 #todayshours ul li{list-style:none}
 .LibRooms{list-style:none}

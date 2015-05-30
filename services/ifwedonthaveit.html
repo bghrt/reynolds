@@ -34,6 +34,8 @@
 
  <style>
  
+.tb a {color: #135d9b; text-decoration:underline;}
+ 
 .rwd-table {
   margin: 1em 0;
   min-width: 300px; // adjust to your needs
@@ -69,7 +71,7 @@
       @media (min-width: $breakpoint-alpha) {
         display: none;
       }
-    }
+ 
   }
   
   th, td {
@@ -86,9 +88,7 @@
       &:last-child {
         padding-right: 0;
       }
-    }
-
-  }
+   
   
   
 }
@@ -126,7 +126,7 @@ h1 {
     @media (min-width: $breakpoint-alpha) { 
       padding: 1em !important; 
     }
-  }
+
   th, td:before {
     color: #dd5;
   }
@@ -334,25 +334,18 @@ h1 {
       <h3 class="label-important">If we don't have it, you can still get it!</h3>
      
 
-<p><strong>Want to double check if we have it? Check </strong><a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/search.do?vid=JSRCC">QuickSearch</a> if you're looking for a book or DVD. Check the </strong><a href="http://library.reynolds.edu/research/findjournal.html">Journal Locator</a> if you know the name of the journal. The Journal Locator will tell you if the journal is available online or in print through Reynolds Library. </strong></p>
-<p><strong>If Reynolds Library doesn't have the item, students, faculty, and staff can choose to travel to a local library and check out the item or request it online via the </strong><a href="interlibraryloan.html">Interlibrary Loan Service</a> (ILL).</strong></p>
-<p><strong>To Check Out an Item Directly From a Local Library</strong></p>
-<p>The <a href="http://www.vivalib.org/borrowing/">Cooperative Borrowing Program</a> allows current Reynolds students, faculty, and staff to borrow library materials directly from </strong><a href="http://www.vivalib.org/borrowing/index.php">participating academic libraries</a> such as the University of Richmond and Virginia Commonwealth University. </strong></p>
+<p><strong>1. Double check if to see if we have it?</strong> by using </strong><a href="http://vccs-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/search.do?vid=JSRCC">QuickSearch</a> to find a book or DVD that we own.  Then check <a href="http://worldcat.org">WorldCat</a> to determine if the book is available at other libraries. <br>
+<p><strong> 2. To Request a Book from Another Library to be Mailed to Reynolds Library (Interlibrary Loan):</strong> If Reynolds Library doesn't have the item, students, faculty, and staff can choose to travel to a local library and check out the item or request it online via the </strong><a href="interlibraryloan.html">Interlibrary Loan Service</a> (ILL).</strong></p>
+
+<p><strong>3. To Check Out an Item Directly From a Local Library</strong>: The <a href="http://www.vivalib.org/borrowing/">Cooperative Borrowing Program</a> allows current Reynolds students, faculty, and staff to borrow library materials directly from </strong><a href="http://www.vivalib.org/borrowing/index.php">participating academic libraries</a> such as the University of Richmond and Virginia Commonwealth University. </strong></p>
 <p>The RALC (<a href="../ralc/catalogs/default.htm">Richmond Academic Library Consortium</a>) allows students to visit John Tyler, Randolph Macon, or Union Presbyterian and check out up to five books from their collection. Ask at any library reference desk for a <a href="http://library.reynolds.edu/ralc/initiatives/pass/default.htm">RALC pass</a>.</p>
-<p>To find out if a local library owns an item, check <a href="http://library.vccs.edu/license-bin/linker.plx?firstworldcat">WorldCat</a> or the local lending library;s website. Here is a list of some local public libraries and their websites:</p>
-<p><strong>Chesterfield County Library: </strong><a href="http://library.chesterfield.gov/">http://library.chesterfield.gov/</a></p>
-<p><strong>County of Henrico Public Library: </strong><a href="http://www.henricolibrary.org/">http://www.henricolibrary.org/</a></p>
-<p><strong>Jefferson-Madison Public Library (Louisa): </strong><a href="http://jmrl.org/">http://jmrl.org/</a></p>
-<p><strong>Library of Virginia: </strong><a href="http://www.lva.virginia.gov/">http://www.lva.virginia.gov/</a></p>
-<p><strong>Pamunkey </strong>Regional Library: </strong><a href="http://www.pamunkeylibrary.org/">http://www.pamunkeylibrary.org/</a></p>
-<p><strong>Powhatan Public Library: </strong><a href="http://public.powhatanlibrary.net">http://public.powhatanlibrary.net</a></p>
-<p><strong>Richmond Public Library: </strong><a href="http://www.richmondpubliclibrary.org/">http://www.richmondpubliclibrary.org/</a></p>
-<p><strong>To Request an Item Online Through Interlibrary Loan</strong></p>
-<p><strong>If you don't want to travel to a local library, we can interlibrary loan it for you! Just fill out the </strong><a href="http://library.reynolds.edu/services/interlibraryloan.html">Interlibrary Loan Form</a>. </strong></p>
+
+
+
 <p><strong>Questions or need more information? </strong><a href="http://library.reynolds.edu/services/staff.htm">Ask any librarian for help</a>. </strong></p>
 
 
-<p>Updated 1/6/2015</p>
+
 <table class="table table-bordered table-striped" width=+100%">
     <thead>
         <tr>
@@ -374,8 +367,8 @@ h1 {
         <tr>
             <td><strong>Owning library</strong></td>
             <td>All library types</td>
-            <td>Participating VIVA academic libraries</td>
-            <td>JTCC, Randolph Macon, Union Presbyterian</td>
+            <td class="tb"><a href="http://www.vivalib.org/borrowing/index.php" target="_blank">Participating VIVA academic libraries</a></td>
+            <td class="tb"><a href="http://library.reynolds.edu/ralc/members/default.htm" target="_blank">JTCC, Randolph Macon, Union Presbyterian, etc</a></td>
              <td>Local public libraries</td>
         </tr>
         <tr>
@@ -408,7 +401,18 @@ h1 {
         </tr>
     </tbody>
 </table>
+<br></br>
+<div class="backgroundpdo">
+<p>To find out if a local library owns an item, check <a href="http://worldcat.org">WorldCat</a> or the local lending library's website. Here is a list of some local public libraries and their websites:</p>
+<p><strong>Chesterfield County Library: </strong><a href="http://library.chesterfield.gov/">http://library.chesterfield.gov/</a></p>
+<p><strong>County of Henrico Public Library: </strong><a href="http://www.henricolibrary.org/">http://www.henricolibrary.org/</a></p>
+<p><strong>Jefferson-Madison Public Library (Louisa): </strong><a href="http://jmrl.org/">http://jmrl.org/</a></p>
+<p><strong>Library of Virginia: </strong><a href="http://www.lva.virginia.gov/">http://www.lva.virginia.gov/</a></p>
+<p><strong>Pamunkey </strong>Regional Library: </strong><a href="http://www.pamunkeylibrary.org/">http://www.pamunkeylibrary.org/</a></p>
+<p><strong>Powhatan Public Library: </strong><a href="http://public.powhatanlibrary.net">http://public.powhatanlibrary.net</a></p>
+<p><strong>Richmond Public Library: </strong><a href="http://www.richmondpubliclibrary.org/">http://www.richmondpubliclibrary.org/</a></p></div>
 
+<p>Updated 1/6/2015</p>
 
       </div>
      
