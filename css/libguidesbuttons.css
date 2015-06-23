@@ -1552,9 +1552,15 @@ text-align:left;
 
 .button-large {
   font-size: 20px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 50px; }
+  height: auto;
+  line-height: auto;
+  padding: 0 30px; }
+  
+  .button-large2 {
+  font-size: 25px;
+  height: auto;
+  line-height: auto;
+  padding: 0 40px; margin-bottom:12px; } 
 
 .button-normal {
   font-size: 16px;
