@@ -1,0 +1,13 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<p>Yes!  Just as a book is italicized on your Works Cited page, so it is, on your paper.</p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

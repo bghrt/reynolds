@@ -1,0 +1,14 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1">
+  <p>How do we know that this is the title of the article and not the website?  That's right.  Because it's in quotes.</p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

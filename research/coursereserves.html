@@ -27,6 +27,12 @@
 <style>
 #facreserves {background:whitesmoke; font-weight:bold;}
 
+ <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<style>
+
+</style>
+<link href="../css/tabcontainer.css" rel="stylesheet" type="text/css">
+
 </style>
 
 
@@ -35,7 +41,7 @@
 
 <body>
 <div id="all">
-<div id="apDiv1"><a href="http://www.reynolds.edu/default.aspx"><img src="../images/rcc-reverse-2.png" width="200" height="70" alt="Reynolds"></a></div>
+<div id="apDiv1"><a href="http://www.reynolds.edu/default.aspx"><img src="../images/rcc-reverse-2.png" width="254" height="70" alt="Reynolds"></a></div>
 <div class="navbar">
   <div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
     <div class="container"> <span class="hide"><a href="../default.htm"><img src="../images/mobilelogo.png"></a></span> </div>
@@ -63,8 +69,8 @@
                   </form></li>
         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
           <ul class="dropdown-menu">
-           <li><a href="atozdatabases.html">A to Z Databases</a></li>
-            <li><a href="subjectdatabases.html">Databases By Subject</a></li>
+           <li><a href="http://libguides.reynolds.edu/atozdatabases">A to Z Databases</a></li>
+            <li><a href="http://libguides.reynolds.edu/az.php">Databases By Subject</a></li>
            
             <li><a href="http://vccslinc.vccs.edu/F/?func=find-b-0&local_base=jsrcc">Books/Catalog</a></li>
             <li><a href="findjournal.html">Search Journals</a></li>
@@ -217,20 +223,61 @@
  <H3 class="label-important">Reserves FAQ for Faculty</H3>
   <br>
   
-  <h3 class="badge-success white_text2 paddingleft img-rounded width50">Current Reserves</h3>
+
   
-  <h3 ><a href="../internal/reserves/2014_fall_reserves.xlsx" class="btn notextdecoration">Downtown Campus</a>
-    <a href="../internal/reserves/ParhamRoad.xlsx" class="btn notextdecoration">Parham Campus</a>
-    
-    <a href="../internal/reserves/goochland.xlsx" class="btn notextdecoration">Goochland Campus</a></h3>
-  
-  <h2 class="badge-success white_text2 paddingleft img-rounded ">Reserve Process</h2>
-  
+ 
   
   <p>
     Faculty members are encouraged to put copies of textbooks or other required course materials on reserve for student use in the library. The library does not purchase textbooks to be placed on reserve.  Faculty members are responsible for providing the textbooks unless the library currently owns a copy of the requested book in its collection.  At this time, course reserves are limited to physical materials. </p>
   <p>Reserve items are for 2 hours in-library use.  Faculty members need to fill out a <a href="http://inside.jsr.vccs.edu/inside_lrc/forms/47-0004.pdf">Course Reserve Request Form</a> and bring the reserve items to the library. Please allow at least one week for processing the items before notifying students of the material’s availability.    </p>
   <p>Copyright compliance is the responsibility of the faculty member. Be sure to check for any distribution restrictions that will make the item ineligible for reserve. Reynolds Library reserves the right to reject any materials that it deems violate Copyright Law. </p>
+  
+           <h3 class="badge-success white_text2 paddingleft img-rounded ">Current Reserves List By Campus - Fall 2015 </h3>
+   
+
+
+
+<div id="tabs-container">
+    <ul class="tabs-menu">
+        <li class="current"><a href="#tab-1">Reserves</a></li>
+        <li><a href="#tab-2">Parham</a></li>
+        <li><a href="#tab-3">Downtown</a></li>
+        <li><a href="#tab-4">Goochland</a></li>
+    </ul>
+    <div class="tab">
+        <div id="tab-1" class="tab-content">
+            <p><strong>Important Note:</strong> Some instructors request materials (books, student guides, articles, etc.) to be placed on reserve at the circulation desk for students to use in the library. Most reserve materials have a 2-hour loan period. The instructors will inform students of the titles and availability of items on reserve. Reserve items are taken from the library’s circulating collection or supplied by instructors and academic departments.</p>
+<p>
+<strong>Therefore,</strong> textbooks for all Reynolds classes may not be in the reserve collection. If your textbook is not currently on reserve, talk with your instructor to have it made available for your use. Please note that reserve items are usually unique to each campus.</p>
+        </div>
+        <div id="tab-2" class="tab-content">
+           <iframe src="https://docs.google.com/spreadsheets/d/1cjtzWSxNzifu5avvl-hgBXk0u-cNB_F5Ksgt4rOJHHE/pubhtml?gid=1541324161&amp;single=true&amp;widget=true&amp;headers=false" width="95%" height="600px"></iframe>
+        
+        </div>
+        <div id="tab-3" class="tab-content">
+        
+        <iframe src="https://docs.google.com/spreadsheets/d/11bC2pNjT37YVtXdwwtU9jqPAwdDFLgeucyHTRAS_yxc/pubhtml?widget=true&amp;headers=false" width="95%" height="800px"></iframe>
+  
+        </div>
+        <div id="tab-4" class="tab-content">
+        <iframe src="https://docs.google.com/spreadsheets/d/1orlBtkYUKmHj3azh-GKqCptpiseU_JtqMBeiGLkyJY8/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300"></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    $(".tabs-menu a").click(function(event) {
+        event.preventDefault();
+        $(this).parent().addClass("current");
+        $(this).parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tab-content").not(tab).css("display", "none");
+        $(tab).fadeIn();
+    });
+});
+</script>
+
   
   
   
@@ -242,7 +289,7 @@
          <div class="paddingleft">
 <p class="text-success"> <div id="widgetwrapper"> 
   <h3><img src="../images/chatred.png"  alt="chat"/> Chat:</h3>
-    <p ><a href="../services/ask.htm" class="btn">Chat Here</a></p>
+    <p ><a href="../services/ask.htm" class="btn">Ask a Librarian</a></p>
   <h3><img src="../images/phoneiconred.png"  alt="Call Us"/>Call:</h3>
   <p><strong>Downtown</strong>: <br>
     804.523.5211 <br> <strong>Parham:</strong> <br>

@@ -1,0 +1,14 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1">
+  <p>Yep.  On every page of your MLA paper, in the top right-hand corner, you'll need your last name and page number and there is never any comma in between the two.  Don't know how to insert a Last Name page number?  Well, then just stop by your friendly reference desk.</p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

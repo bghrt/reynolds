@@ -1,0 +1,13 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<p>Note the formatting of the editor's name: First name then the last name.  If the name is in the middle of the citation, it always follows the first name, last name pattern. Also, to indicate the editor, just add Ed.  </p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

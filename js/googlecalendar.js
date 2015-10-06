@@ -55,11 +55,11 @@ function makeApiCall() {
 	//Assemble the request as needed, make sure to update 'fields' parameter(s) if you need more information about the event (if you want the calendar description, or the item/event description, url, etc.)
     var request = gapi.client.calendar.events.list({
 	  'calendarId':calId,
-	  'maxResults':'3',
-	  'orderBy':'startTime',
-	  'timeMin':minimumStartTime,
-	  'singleEvents':true,
-	  'fields':'items(start,summary),summary'
+	  'timeMin': (new Date()).toISOString(),
+          'showDeleted': false,
+          'singleEvents': true,
+          'maxResults': 3,
+          'orderBy': 'startTime'
 	});
 	
 	request.execute(function(resp) {

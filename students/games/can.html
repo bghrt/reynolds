@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<title>Footprints</title>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<style>
+.footprint {
+	width: 205px;
+	height: 232px;
+	position: absolute;
+	z-index: 500;
+	background-image:url(slideshowimages/authorsname.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+.footprint1 {
+	bottom: 60px;
+	left: 220px;
+}
+.footprint2 {
+	bottom: 80px;
+	left: 610px;
+}
+.footprint3 {
+	bottom: 420px;
+	left: 460px;
+}
+.footprint4 {
+	bottom: 440px;
+	left: 870px;
+}
+.footprint5 {
+	bottom: 760px;
+	left: 720px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="fullWidth" id="slide_0">
+<div class="footprint footprint1"></div>
+<div class="footprint footprint2"></div>
+<div class="footprint footprint3"></div>
+<div class="footprint footprint4"></div>
+<div class="footprint footprint5"></div>
+</div><!-- slide_0 close-->
+
+
+<div class="fullWidth" id="slide_1">
+
+  <div class="bear">&nbsp;</div>
+  
+  <div class="openingStatement">
+  <div class="rm">&nbsp;</div>
+  <div class="trouble">&nbsp;</div>
+  </div><!--openingStatement close-->
+
+</div><!-- slide_1 close-->
+
+
+
+</div>
+<!--siteWrap-->
+
+<script>
+
+$(document).ready(function() {
+
+	//Walking paw prints
+	$(".footprint1").delay(1000).fadeIn(500).delay(1000).fadeOut(700);
+	$(".footprint2").delay(1700).fadeIn(500).delay(1000).fadeOut(700);
+	$(".footprint3").delay(2400).fadeIn(500).delay(1000).fadeOut(700);
+	$(".footprint4").delay(3100).fadeIn(500).delay(1000).fadeOut(700);
+	$(".footprint5").delay(3800).fadeIn(500).delay(1000).fadeOut(700);
+
+
+    });
+
+
+
+
+
+
+
+</script> 
+</body>
+</html>

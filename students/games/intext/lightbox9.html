@@ -1,0 +1,13 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<p>Here you need the article title/webpage and the paragraph number. This source is citing the article title because, apparently, it doesn't have an author.  If there isn't an author for the source that you are citing, put in the next citation piece which it typically the title of the webpage or the article title. </p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

@@ -191,7 +191,9 @@ li.dropdown.open{background-color:#a22137}
 .carousel-indicators{position:absolute;top:25px;right:15px;z-index:10;margin:0;list-style:none}
 .carousel-indicators li{display:block;float:left;width:10px;height:10px;margin-left:5px;text-indent:-999px;background-color:#ccc;background-color:rgba(255,255,255,0.25);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
 .carousel-indicators .active{background-color:#fff}
-.carousel-caption{position:absolute;bottom:0;left:-4px;padding-left:5px;padding-right:5px;padding-bottom:5px;background-color:#8c0000;width:100%;height:auto;font-size:1em}
+.carousel-caption{position:absolute;bottom:10px;left:0px;  background-color:#900;width:100%;height:auto; opacity:.8; }
+
+.carousel-caption h4 {font-size:1.1em; opacity:1;  color:white;  padding: 5px;font-weight:bold;}
 .carousel .item{-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-ms-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}
 .carousel .active.left{left:0;opacity:0;z-index:2}
 .carousel .next{left:0;opacity:1;z-index:1}
@@ -199,10 +201,10 @@ li.dropdown.open{background-color:#a22137}
 .pull-right2{float:right;color:#000;font-size:.625em;position:relative}
 .pull-left{float:left}
 .invisible{visibility:hidden}
-.footer{margin-top:40px;color:#FFF;clear:both;margin-bottom:10px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}
+.footer{margin-top:40px;color:#FFF;clear:both;margin-bottom:10px;border-radius: 0px 0px 6px 6px;}
 .clear{clear:both}
 .row .container .row{border-top-width:40px;border-top-style:solid;border-color:#FFF}
-.thinredborder{border:1px solid #903;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;-webkit-box-shadow:5px 5px 5px 5px #888;-moz-box-shadow:5px 5px 5px 5px #888;box-shadow:5px 5px 5px 5px #888}
+.thinredborder{border:1px solid #903;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:5px 5px 5px 5px #888;-moz-box-shadow:5px 5px 5px 5px #888;box-shadow:5px 5px 5px 5px #888}
 .breadcrumb{color:#000;padding-top:5px;margin-top:-15px;font-size:.75px;margin-bottom:10px;margin-left:5px;border:1px solid #a22137;width:500px;padding-bottom:5px;float:none;padding-left:15px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
 .span9 .breadcrumb a{color:#903;text-decoration:none;font-size:.75em;margin-left:5px}
 .span9 .breadcrumb a:hover{text-decoration:underline}
@@ -211,7 +213,7 @@ li.dropdown.open{background-color:#a22137}
 .raquo_menu{margin-left:5px}
 .raquo_menu a{color:#000;text-decoration:none;padding-left:.5em;font-size:.83em;font-family:font-family: 'Open Sans',sans-serif}
 .raquofont{font-size:.8em;font-family:'Open Sans',sans-serif}
-.raquo_menuraquo,.raquo_menuraquo a{background-color:#a32638;padding-left:.4em;padding-right:.4em;padding-bottom:.1em;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;color:#fff;font-size:.7em;margin-right:5px}
+.raquo_menuraquo,.raquo_menuraquo a{background-color:#a32638;padding-left:.4em;padding-right:.4em;padding-bottom:.1em;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;color:#fff;font-size:.8em;margin-right:5px}
 .raquo_menu a:hover{text-decoration:underline}
 .myReynolds{font-family:"Times New Roman",Times,serif;font-weight:700;color:#84824a;font-style:italic}
 .btn .label,.btn .badge{position:relative;top:-1px}
@@ -279,10 +281,7 @@ div#event_desc{display:none}
 .googlesearch{width:200px;z-index:100}
 .footer .row-fluid .span3 p{font-size:1em}
 .spacer{height:1em}
-a.tooltips{position:relative;display:inline}
-a.tooltips span{position:absolute;max-width:250px;height:auto;color:#FFF;background:#000;padding:3px;line-height:15px;text-align:center;visibility:hidden;border-radius:6px}
-a.tooltips span:after{content:'';position:absolute;top:100%;left:50%;margin-left:-8px;width:0;height:0;border-top:8px solid #000;border-right:8px solid transparent;border-left:8px solid transparent}
-a:hover.tooltips span{visibility:visible;opacity:.9;bottom:30px;left:50%;margin-left:-76px;z-index:999}
+
 .blacktext{color:#000;text-decoration:underline}
 .lineheight{line-height:75%}
 .gsc-control-cse{font-family:Arial,sans-serif;border-color:#FFF;background-color:none!important}
@@ -327,5 +326,5 @@ li.caltxt{list-style:none}
 #api_upc_cid566_iid79{border-radius:10px}
 .s-lc-ea-treg a,.s-lc-ea-treg td a,s-lc-ea-l a,.s-lc-ea-tb a{text-decoration:underline;font-size:14px}
 .s-lc-ea-treg a:hover,.s-lc-ea-treg td a:hover,s-lc-ea-l a:hover,.s-lc-ea-tb a:hover{color:#000!important}
-
-.s-lc-ea-noe {font-size:1.6em; margin: .5em;}
+.red {color:darkred; font-weight:bold; font-size:1.4em; margin-left:1em; }
+.s-lc-ea-noe {font-size:1.6em; margin: .5em; } .black {color:black!important}

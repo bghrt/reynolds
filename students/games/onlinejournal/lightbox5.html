@@ -1,0 +1,14 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1">
+  <p>Generally, with journals, there is a publication year.  But, unlike magazines and newspapers, there may not be an exact date of publication.  The publication year is always surrounded by parenthesis. </p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

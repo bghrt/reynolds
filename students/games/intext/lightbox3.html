@@ -1,0 +1,14 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1">
+  <p>Yes!  Just as articles have quotes around them on the Works Cited page, if you refer to the article in your paper, make sure it has quotes around it.  Those small little cues, tell the reader that you're refering to an article, even if you didn't say "According to the article..." </p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

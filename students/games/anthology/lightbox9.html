@@ -1,0 +1,13 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<p> The purpose of including the page range, is that it takes the reader exactly to the spot that you cited.  Really, the goal to MLA format, is to take the reader directly back to the source that you used, and the more detail, the better.</p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

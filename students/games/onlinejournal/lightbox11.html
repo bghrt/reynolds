@@ -1,0 +1,13 @@
+<div class="lightboxWrap"><div class="closeLightbox"></div>
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+
+<div class="statement statement1"><p>This is important so please actually read this: you must always, always, always cite when you actually read the online source.  Always.  This is why: let's say you turn your paper in on September 17th.  Your instructor is a slow poke and she doesn't read your paper until October 8th.  She has a question about one of your web sources, so she goes on line, enters your citation information, but she cannot find the source.  You've given yourself an explanation.  Between September 17th and October 8th the webpage went away.  Let's hope that didn't happen, because your instructor may make you find another source, but if it did happen, and you included the date you actually read the article... well, you've given yourself an "out".</p></div>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

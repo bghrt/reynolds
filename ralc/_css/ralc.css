@@ -277,7 +277,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 	height: 100px;
 
 	position: fixed;
-	bottom: 2px;
+	bottom: 20px; right:20px;
 	right: 0;
 	display: none;
 	background-image: url(../../images/arrow_up.png);
@@ -357,7 +357,9 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 	display: none;
 }
 }
- @media (min-width:1px) and (max-width:601px) {
+ @media (min-width:1px) and (max-width:601px) {#ralc {width:100%;}
+	 
+	 body {width:100%; }
 .col_wrapper {
 	width: 100%;
 }

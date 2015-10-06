@@ -21,13 +21,12 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 <script src="../jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="../js/backtothetop.js"></script>
-
-
 <!-- InstanceBeginEditable name="head" -->
-
+ <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <style>
-#textbooks {font-weight:bold; background:whitesmoke;}
+
 </style>
+<link href="../css/tabcontainer.css" rel="stylesheet" type="text/css">
 
 <!--<![endif]-->
 <!--/*This webpage was made with tender sweet sweet love and extreme trial and error and a great deal of awesomeness from bootstap and jquery*/-->
@@ -37,81 +36,69 @@
 
 <body>
 <div id="all">
-<div id="apDiv1"><a href="http://www.reynolds.edu/default.aspx"><img src="../images/rcc-reverse-2.png" width="200" height="70" alt="Reynolds"></a></div>
-<div class="navbar">
-  <div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
-    <div class="container"> <span class="hide"><a href="../default.htm"><img src="../images/mobilelogo.png"></a></span> </div>
-    <div class="nav-collapse">
-      <ul class="nav">
-       
-        <li class="dropdown"> <a href="../default.htm">Library Home</a> 
-
-<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Reynolds <span class="caret"></span></a>
-
-<form role="form" class="dropdown-menu myReynolds" method="POST" name="auth" action="https://jsr.my.vccs.edu/login" onsubmit="return validate();" >
-                    <div class="form-group">
-                      <label for="myjsr_id">Username</label>
-                      <input type="text" class="form-control" id="myjsr_id" name="vccsid" tabindex="1" placeholder="MyReynolds  username">
-                    </div>
-                    <div class="form-group">
-                      <label for="myjsr_password">Password</label>
-                      <input type="password" class="form-control" name="password_temp" id="myjsr_password" tabindex="2" placeholder="My Reynolds password">
-                    </div>
-                    <input type="hidden" name="password" />
-                    <input type="hidden" name="myvccsurl" value='' />
-                    <input type="hidden" name="requesturl" value='http://jsr.my.vccs.edu/jsp/login.jsp' />
-                   
-                    <button type="submit" class="btn btn-default">Login</button>
-                  </form></li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-           <li><a href="../research/atozdatabases.html">A to Z Databases</a></li>
-            <li><a href="../research/subjectdatabases.html">Databases By Subject</a></li>
-           
-            <li><a href="http://vccslinc.vccs.edu/F/?func=find-b-0&local_base=jsrcc">Books/Catalog</a></li>
-            <li><a href="../research/findjournal.html">Search Journals</a></li>
-          </ul>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="http://libguides.reynolds.edu/">Subject Guides</a></li>
-            <li><a href="http://libguides.reynolds.edu/friendly.php?action=82&s=courseguides">Class Guides</a></li>
-            <li><a href="http://libguides.Reynolds.edu/sdv100new">SDV100</a></li>
-            <li><a href="http://libguides.Reynolds.edu/research">Research at Reynolds</a></li>
-            <li><a href="http://libguides.Reynolds.edu/mla">MLA/APA</a></li>
-            <li><a href="http://libguides.Reynolds.edu/statistics">Statistics</a></li>
-          </ul>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-          
-            <li><a href="../research/index.html">Database Portal</a></li>
-            <li><a href="http://library.vccs.edu/license-bin/linker.plx?ebscoa9h">Academic Search Complete</a></li>
-            <li><a href="http://library.vccs.edu/license-bin/linker.plx?galeovrc">Opposing Viewpoints</a></li>
-          
-            <li><a href="http://library.vccs.edu/license-bin/linker.plx?xsrjstor">JSTOR</a></li>
-       
-          </ul>
-        </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-             <li><a href="../services/forms.html" id="forms">Forms </a></li>
+  <div id="apDiv1"><a href="http://www.reynolds.edu/default.aspx"><img src="../images/rcc-reverse-2.png" alt="Reynolds" width="254" height="85"></a></div>
+  <div class="navbar">
+    <div class="navbar-inner" style="-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;">
+      <div class="container"> <span class="hide"><a href="../default.htm"><img src="../images/mobilelogo.png"></a></span> </div>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li class="dropdown"> <a href="../default.htm">Library Home</a>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Reynolds <span class="caret"></span></a>
+            <form role="form" class="dropdown-menu myReynolds" method="POST" name="auth" action="https://jsr.my.vccs.edu/login" onsubmit="return validate();" >
+              <div class="form-group">
+                <label for="myjsr_id">Username</label>
+                <input type="text" class="form-control" id="myjsr_id" name="vccsid" tabindex="1" placeholder="MyReynolds  username">
+              </div>
+              <div class="form-group">
+                <label for="myjsr_password">Password</label>
+                <input type="password" class="form-control" name="password_temp" id="myjsr_password" tabindex="2" placeholder="My Reynolds password">
+              </div>
+              <input type="hidden" name="password" />
+              <input type="hidden" name="myvccsurl" value='' />
+              <input type="hidden" name="requesturl" value='http://jsr.my.vccs.edu/jsp/login.jsp' />
+              <button type="submit" class="btn btn-default">Login</button>
+            </form>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://libguides.reynolds.edu/atozdatabases">A to Z Databases</a></li>
+              <li><a href="http://libguides.reynolds.edu/az.php">Databases By Subject</a></li>
+              <li><a href="http://vccslinc.vccs.edu/F/?func=find-b-0&local_base=jsrcc">Books/Catalog</a></li>
+              <li><a href="../research/findjournal.html">Search Journals</a></li>
+            </ul>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://libguides.reynolds.edu/">Subject Guides</a></li>
+              <li><a href="http://libguides.reynolds.edu/friendly.php?action=82&s=courseguides">Class Guides</a></li>
+              <li><a href="http://libguides.Reynolds.edu/sdv100new">SDV100</a></li>
+              <li><a href="http://libguides.Reynolds.edu/research">Research at Reynolds</a></li>
+              <li><a href="http://libguides.Reynolds.edu/mla">MLA/APA</a></li>
+              <li><a href="http://libguides.Reynolds.edu/statistics">Statistics</a></li>
+            </ul>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="../research/index.html">Database Portal</a></li>
+              <li><a href="http://library.vccs.edu/license-bin/linker.plx?ebscoa9h">Academic Search Complete</a></li>
+              <li><a href="http://library.vccs.edu/license-bin/linker.plx?galeovrc">Opposing Viewpoints</a></li>
+              <li><a href="http://library.vccs.edu/license-bin/linker.plx?xsrjstor">JSTOR</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="../services/forms.html" id="forms">Forms </a></li>
               <li id="interlibrary"><a href="../services/interlibraryloan.html">Interlibrary Loan</a></li>
-         <li id="policies"><a href="../services/policies.html">Policies</a></li>
-        
-            <li id="staff"><a href="../services/staff.htm">Staff</a></li>
-         
-           
-           
-            <li id="studyrooms"><a href="../services/groupstudyrooms.html">Study Rooms</a></li>
-          </ul>
+              <li id="policies"><a href="../services/policies.html">Policies</a></li>
+              <li id="staff"><a href="../services/staff.htm">Staff</a></li>
+              <li id="studyrooms"><a href="../services/groupstudyrooms.html">Study Rooms</a></li>
+            </ul>
+          </li>
+        </ul>
         </li>
-        
-         
-          </ul>
-        </li>
-      </ul>
-    <form class="navbar-search pull-right2" >
-        <div id="apDiv3">  <gcse:search>
-          <script>
+        </ul>
+        <form class="navbar-search pull-right2" >
+          <div id="apDiv3">
+            <gcse:search> 
+              <script>
   (function() {
     var cx = '010622249790429968557:cceljkmcpg8';
     var gcse = document.createElement('script');
@@ -122,16 +109,16 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
-</script>
-         </gcse:search>
-        </div>
-      </form>
-      </li>
+</script> 
+            </gcse:search>
+          </div>
+        </form>
+        </li>
+      </div>
+      <!-- /.nav-collapse --> 
     </div>
-    <!-- /.nav-collapse -->
+    <!-- /.container --> 
   </div>
-  <!-- /.container -->
-</div>
   
   <!--/.nav-collapse -->
   <header> <span class="floatright">Where Outstanding Learners Get Started</span></header>
@@ -147,69 +134,56 @@
           <table width="100%" class="table table-hover">
             <tbody>
               <tr>
-                <td class="raquo_menu_submenu"><a href="../research/atozdatabases.html" class="raquo_menu_submenu">A to Z Databases</a></td>
+                <td class="raquo_menu_submenu"><a href="http://libguides.reynolds.edu/az.php" class="raquo_menu_submenu">A to Z Databases</a></td>
               </tr>
-              
               <tr>
                 <td class="raquo_menu_submenu" id="callnumbers"><a href="callnumbers.html" class="raquo_menu_submenu">Books and Call Numbers </a></td>
               </tr>
-                <tr>
+              <tr>
                 <td class="raquo_menu_submenu" ><a href="http://libguides.Reynolds.edu/cite">Cite Sources</a></td>
               </tr>
-            
-            
               <tr>
                 <td class="raquo_menu_submenu"><a href="../research/subjectdatabases.html" class="raquo_menu_submenu">Databases By Subject</a></td>
               </tr>
               <tr>
-               
               <tr>
                 <td class="raquo_menu_submenu"><a href="../services/faqs.html" class="raquo_menu_submenu">FAQs</a></td>
               </tr>
-               <tr>
+              <tr>
                 <td class="raquo_menu_submenu"><a href="../services/groupstudyrooms.html" class="raquo_menu_submenu"> Group Study Rooms</a></td>
               </tr>
-            
-            
               <tr>
                 <td class="raquo_menu_submenu"><a href="http://libguides.reynolds.edu/friendly.php?action=82&s=howdoi" class="raquo_menu_submenu">How Do I?</a></td>
               </tr>
               <tr>
                 <td class="raquo_menu_submenu"><a href="../services/ifwedonthaveit.html?pid=546628&sid=4499486" class="raquo_menu_submenu">If We Don't Have It</a></td>
               </tr>
-              
-                <tr>
+              <tr>
                 <td class="raquo_menu_submenu"><a href="beginyourresearch.html?pid=546628&sid=4499486" class="raquo_menu_submenu">Instead of Google</a></td>
               </tr>
-              
-              <tr>
-                <td class="raquo_menu_submenu" id="workshops"><a href="workshops.html" class="raquo_menu_submenu">Open Workshops</a></td>
-              </tr>
+              <tr> </tr>
               <tr>
                 <td class="raquo_menu_submenu"><a href="../services/offcampusaccess.html" class="raquo_menu_submenu">Off Campus Access</a></td>
               </tr>
-              
               <tr>
                 <td class="raquo_menu_submenu" id="policies"><a href="../services/policies.html" class="raquo_menu_submenu">Policies</a></td>
               </tr>
               <tr>
                 <td class="raquo_menu_submenu" id="printing"><a href="printing.html" class="raquo_menu_submenu">Printing Help</a></td>
               </tr>
-               <tr>
-                <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu" class="raquo_menu_submenu">Research Guides</a></td>
-              </tr>
-              
-               <tr>
-                <td class="raquo_menu_submenu" id="software"><a href="software.html" class="raquo_menu_submenu">Software in the Library</a></td>
-              </tr>
-          
-             
-               
-              <tr>
-                <td class="raquo_menu_submenu" id="textbooks"><a href="reservetextbooks.html" class="raquo_menu_submenu">Textbooks/Reserves</a></td>
-              <tr>
-                <td class="raquo_menu_submenu" id="whyuse"><a href="whydatabases.html" class="raquo_menu_submenu">Why Use Databases</a></td>
-              </tr>
+            
+              <td class="raquo_menu_submenu" id="workshops"><a href="workshops.html" class="raquo_menu_submenu">Research Clinics</a></td>
+            <tr>
+              <td class="raquo_menu_submenu"><a href="http://libguides.Reynolds.edu" class="raquo_menu_submenu">Research Guides</a></td>
+            </tr>
+            <tr>
+              <td class="raquo_menu_submenu" id="software"><a href="software.html" class="raquo_menu_submenu">Software in the Library</a></td>
+            </tr>
+            <tr>
+              <td class="raquo_menu_submenu" id="textbooks"><a href="reservetextbooks.html" class="raquo_menu_submenu">Textbooks/Reserves</a></td>
+            <tr>
+              <td class="raquo_menu_submenu" id="whyuse"><a href="whydatabases.html" class="raquo_menu_submenu">Why Use Databases</a></td>
+            </tr>
             
               <td class="raquo_menu paddingtop">&raquo;<a href="../research/index.html" >Research Portal</a></td>
             <tr>
@@ -226,32 +200,68 @@
       <!-- InstanceBeginEditable name="main" -->
       <div class="span6">
         <h3 class="badge-important">Reserves/Textbooks Search</h3>
-       
-       <h3> <a href="http://vccslinc.vccs.edu/F/?func=find-b-0&local_base=jsr30">Search Reynolds Reserves</a></h3>
-         <h3 class="badge-success white_text2 paddingleft img-rounded width50">Current Reserves List - Spring 2015 </h3>
-      
-       <h3 ><a href="../internal/reserves/2014_fall_reserves.xlsx" class="btn notextdecoration">Downtown Campus</a>
-          <a href="../internal/reserves/ParhamRoad.xlsx" class="btn notextdecoration">Parham Campus</a>
-          
-           <a href="../internal/reserves/goochland.xlsx" class="btn notextdecoration">Goochland Campus</a></h3>
+          <h3 class="badge-success white_text2 paddingleft img-rounded width50">Reynolds Reserves</h3>
+       <h2> <a href="http://vccslinc.vccs.edu/F/?func=find-b-0&local_base=jsr30">Search Reynolds Reserves</a></h2>
+       <br>
+         <h3 class="badge-success white_text2 paddingleft img-rounded ">Current Reserves List By Campus - Fall 2015 </h3>
+   
 
-  <h2 class="badge-success white_text2 paddingleft img-rounded ">Reserve Process</h2>
-       
-       
-          <p><strong>Important Note</strong>: 
+
+
+<div id="tabs-container">
+    <ul class="tabs-menu">
+        <li class="current"><a href="#tab-1">Reserves</a></li>
+        <li><a href="#tab-2">Parham</a></li>
+        <li><a href="#tab-3">Downtown</a></li>
+        <li><a href="#tab-4">Goochland</a></li>
+    </ul>
+    <div class="tab">
+        <div id="tab-1" class="tab-content">
+            <p><strong>Important Note:</strong> Some instructors request materials (books, student guides, articles, etc.) to be placed on reserve at the circulation desk for students to use in the library. Most reserve materials have a 2-hour loan period. The instructors will inform students of the titles and availability of items on reserve. Reserve items are taken from the library’s circulating collection or supplied by instructors and academic departments.</p>
+<p>
+<strong>Therefore,</strong> textbooks for all Reynolds classes may not be in the reserve collection. If your textbook is not currently on reserve, talk with your instructor to have it made available for your use. Please note that reserve items are usually unique to each campus.</p>
+        </div>
+        <div id="tab-2" class="tab-content">
+           <iframe src="https://docs.google.com/spreadsheets/d/1cjtzWSxNzifu5avvl-hgBXk0u-cNB_F5Ksgt4rOJHHE/pubhtml?gid=1541324161&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px"></iframe>
+        
+        </div>
+        <div id="tab-3" class="tab-content">
+        
+        <iframe src="https://docs.google.com/spreadsheets/d/11bC2pNjT37YVtXdwwtU9jqPAwdDFLgeucyHTRAS_yxc/pubhtml?widget=true&amp;headers=false" width="100%" height="400px"></iframe>
+  
+        </div>
+        <div id="tab-4" class="tab-content">
+        <iframe src="https://docs.google.com/spreadsheets/d/1orlBtkYUKmHj3azh-GKqCptpiseU_JtqMBeiGLkyJY8/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    $(".tabs-menu a").click(function(event) {
+        event.preventDefault();
+        $(this).parent().addClass("current");
+        $(this).parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tab-content").not(tab).css("display", "none");
+        $(tab).fadeIn();
+    });
+});
+</script>
+
+
+
+</div>
             
-            Some instructors request materials (books, student guides, articles,  etc.) to be placed on reserve at the circulation desk for students to use in the library. Most reserve materials have a 2-hour loan period. The instructors will inform students of the titles and availability of items on reserve.
-            Reserve items are taken from the library’s circulating collection or supplied by instructors and academic departments. </p>
-          <p><strong>Therefore, </strong>textbooks for all Reynolds classes may not be in the reserve collection. If your textbook is not currently on reserve, talk with your instructor to have it made available for your use.
-            Please note that reserve items are usually unique to each campus.</p>
-      </div>
+            
+ 
       <!-- InstanceEndEditable -->
       <div class="span2">
         <div class="paddingleft">
-<p class="text-success">
-<div id="widgetwrapper">
+          <p class="text-success">
+          <div id="widgetwrapper">
             <h3><img src="../images/chatred.png"  alt="chat"/> Chat:</h3>
-            <p ><a href="../services/ask.htm" class="btn">Chat Here</a></p>
+            <p ><a href="../services/ask.htm" class="btn">Ask a Librarian</a></p>
             <h3><img src="../images/phoneiconred.png"  alt="Call Us"/>Call:</h3>
             <p><strong>Downtown</strong>: <br>
               804.523.5211 <br>
@@ -274,55 +284,55 @@
   </div>
   <!--Row div--> 
   <!--Row div-->
- <div class="footer"><div class="container"><div class="row-fluid">     
-<div class="span3">
-
-<p><strong>Downtown Library</strong></p>
-  <p>Room 230<br> 
-  700 E. Jackson Street<br> Richmond, VA 23219<br>
-  Phone: 804.523.5211</p>
-  <p>Regular Hours: <br>
-Monday - Thursday: 7:45 am - 9:00 pm<br>
-Friday: 7:45 am - 5:00 pm <br>
-Saturday: 8:00 am - 12:00 pm<br>
-Sunday: Closed</p>
- 
-  </div>
-  <div class="span3">
-    <p><strong>Goochland Library</strong></p>
-    <p>Room 200<br> Building C20 1851 Dickinson Road<br> Goochland, VA  23063<br>
-Phone: 804.523.5419
-  <p>Regular Hours: <br>
-    Monday - Thursday: 8:30 am - 7:30 pm<br>
-    Friday: 8:30 am - 4:30 pm <br>
-    Saturday &amp; Sunday: Closed</p>
-</div>
-  <div class="span3">
-    <p><strong>Parham Road Library</strong></p>
-    <p>Room 103 <br> Massey LTC<br>     
-    1651 East Parham Road <br>Richmond, VA 23228<br>
-      Phone: 804.523.5220<br>
-    <p>
-Regular Hours: <br>
-Monday - Thursday: 7:45 am - 9:00 pm<br>
-Friday: 7:45 am - 5:00 pm <br>
-Saturday: 12:00 pm - 4:00 pm<br>
-Sunday: Closed</p>
-  </div>
-  <div class="span3">
-   <p><strong> Reynolds Community College</strong><br><p>
-
-      PO BOX 85622 <br>
-      Richmond, VA, USA 23285-5622 <br> 804.371.3000
-   </p>
-
-
-</div>
+  <div class="footer">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span3">
+          <p><strong>Downtown Library</strong></p>
+          <p>Room 230<br>
+            700 E. Jackson Street<br>
+            Richmond, VA 23219<br>
+            Phone: 804.523.5211</p>
+          <p>Regular Hours: <br>
+            Monday - Thursday: 7:45 am - 9:00 pm<br>
+            Friday: 7:45 am - 5:00 pm <br>
+            Saturday: 8:00 am - 12:00 pm<br>
+            Sunday: Closed</p>
+        </div>
+        <div class="span3">
+          <p><strong>Goochland Library</strong></p>
+          <p>Room 200<br>
+            Building C20 1851 Dickinson Road<br>
+            Goochland, VA  23063<br>
+            Phone: 804.523.5419
+          <p>Regular Hours: <br>
+            Monday - Thursday: 8:30 am - 7:30 pm<br>
+            Friday: 8:30 am - 4:30 pm <br>
+            Saturday &amp; Sunday: Closed</p>
+        </div>
+        <div class="span3">
+          <p><strong>Parham Road Library</strong></p>
+          <p>Room 103 <br>
+            Massey LTC<br>
+            1651 East Parham Road <br>
+            Richmond, VA 23228<br>
+            Phone: 804.523.5220<br>
+          <p> Regular Hours: <br>
+            Monday - Thursday: 7:45 am - 9:00 pm<br>
+            Friday: 7:45 am - 5:00 pm <br>
+            Saturday: 12:00 pm - 4:00 pm<br>
+            Sunday: Closed</p>
+        </div>
+        <div class="span3">
+          <p><strong> Reynolds Community College</strong><br>
+          <p> PO BOX 85622 <br>
+            Richmond, VA, USA 23285-5622 <br>
+            804.371.3000 </p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
 <a href="#" class="scrollToTop"></a>
 </div>
 <a href="#" class="scrollToTop"></a>

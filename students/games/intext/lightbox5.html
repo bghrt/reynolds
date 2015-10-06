@@ -1,0 +1,15 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<p>This is tricky.  What does par. mean and why did we add it?   Par stands for paragraph and we used it because we are citing an <strong>online</strong> article.  When citing something online don't include page numbers.  Ever.  Why?  Because if you print something from on online source, it might be 7 pages to one printer or 8 pages to another printer.  Using the paragraph number for online sources is more precise.  It tells the reader exactly where you got that information.</p>
+
+<p>Here's something else worth pointing out: the period always goes after the in-text citation at the very end.  Don't use two periods when quoting or paraprasing - just one period, at the very end.</p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

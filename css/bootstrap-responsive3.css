@@ -12,13 +12,13 @@
 	margin-right: auto;
 	background-color: #Ffffff;
 	position:relative;
-	width:1200px;}
+	width:1230px;}
 #apDiv1 {
 	left: 8px;
 }
 .nav-collapse.collapse {margin-left:17%;}
 
-body {background-color:#f4f6f6;max-width:1280px; font-size:90%;}
+body {background-color:#f4f6f6;max-width:1230px; font-size:93%;}
 .label-warning {margin-bottom:.5em;}
 
 
@@ -292,8 +292,12 @@ a#ui-id-4 {display:none;}/*important hides tab*/
 #searchbox {display:none;}
 header {display:none;}
 
+.fullcalendar {left:5%!important;}
 
+.small_text p a, .small_text a, .small_text span a {overflow:hidden!important;
+font-size:90%;
 
+}
 }
 
 @media print {

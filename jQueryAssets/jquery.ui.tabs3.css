@@ -35,7 +35,7 @@
 	color: #ffffff;
 }
 .gui-content li a {
-	font-size: 16px;
+	font-size: 1.1em;
 }
 .ui-tabs .ui-tabs-nav li {
 	list-style: none;
@@ -154,25 +154,31 @@ Navigation Centering .gui-navset .gui-nav li, .gui-navset .gui-navset-top .gui-n
 	-moz-border-radius: 7px;
 	border-radius: 7px;
 	color: black;
-	font-size: .9em;
+	font-size: 1em;
 	text-align: center;
 }
 .small_text p a, .small_text a, .small_text span a {
 	color: black;
-	font-size: .75em;
+	font-size: 1em;
 	font-weight: normal;
-	padding-left: 2px;
-	padding-right: 2px;
-	padding-top: 1px; position:relative;
+margin:0 auto;
+	padding-top: 1px; 
 
+overflow:clip;
 }
+
+.small_text2 { background:whitesmoke; padding:5px; border-radius:10px; line-height:160%;    list-style-type: none; margin: 15px 5px 10px 5px;  }
+
+.small_text2 a {font-size:.9em; }
+
 .smaller_text p a, smaller_text a {
 	color: black;
-	font-size: .70em;
+	font-size: .85em;
 	font-weight: normal;
 	padding-left: 2px;
 	padding-right: 2px;
 	padding-top: 1px;
+	
 }
 .small_text p, .small_text, .smaller_text p, .small_text span {
 	background-color: whitesmoke;
@@ -320,7 +326,14 @@ input#lg_search_box, #s-lg-guide-search  {
 	text-align: left;
 }
 
-.importantnote {background-color: yellow; color:black; font-size:1.2em;  }
+.importantnote { margin:0px;
+	    color: black;
+	   
+    padding: 5px;
+	    background: hsla(60, 100%, 90%, 0.9);
+  }
+  
+  .importantnote a {    color: #135d9b; text-decoration:underline; font-weight:bold; margin-left:12px; font-size:1.2em;}
 
 .cse input.gsc-input, input.gsc-input {
 background-image:url(../images/images/searchthissite.png)!important;
@@ -335,11 +348,11 @@ font-size:10px!important;
 background-image:none !important;
 }
 
-#s-lg-embedded-search-widget-1431630114283 .s-lg-form-control {width:61%!important; height:35px!important; border-radius:15px!important; margin-top:15px!important;}
+#s-lg-embedded-search-widget-1441740538294.s-lg-form-control {width:61%!important; height:35px!important; border-radius:15px!important; margin-top:15px!important;}
 
-#s-lg-embedded-search-widget-1431630114283 .s-lg-btn {background:white; height:39px!important; color:black; text-align:center; font-size:1em; margin-top:23px!important; box-shadow:none; font-size:.9em!important;width:65px; }
 
-#s-lg-embedded-search-widget-1431630114283 .s-lg-btn {
+
+#s-lg-embedded-search-widget-1441740538294 .s-lg-btn {
 
 
   padding-top: 1px;
@@ -350,3 +363,108 @@ background-image:none !important;
   position: relative;
   top: -2px;
 }
+
+
+.s-lg-btn-api-drop btn btn-default  {height:55px; }
+.closebtn {
+    -moz-user-select: none;
+    background-image: none;
+
+   border-radius: 171px 171px 171px 171px;
+-moz-border-radius: 171px 171px 171px 171px;
+-webkit-border-radius: 171px 171px 171px 171px;
+border: 0px solid #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size:.9em;
+    font-weight: 400;
+   background:whitesmoke;
+
+    padding: 3px 7px; border:1px solid gray;
+    text-align: center;
+    vertical-align: middle;
+
+float:right;
+font-weight:bold;
+}
+
+.closebtn:hover {background:white;}
+
+
+/*tooltip for the renew books*/
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.alphabet {margin:0 auto; font-size:.9em!important; }
+
+
+#s-lg-embedded-search-widget-1441740538294  button {margin-top:14px!important; width: 67px!important;
+	height: 37px!important; background:white!important; border-radius:7px!important; text-align:center!important;}
+
+#s-lg-embedded-search-widget-1441740538294 .s-lg-form-control {height:35px!important; border-radius:15px!important;  display:inline-block!important; margin-bottom:5px!important; width:60%!important; }
+
+
+#s-lg-embedded-search-widget-1441740538294 {margin-top:4px!important;}
+
+.separator {color:#900; font-size:1.2em; }

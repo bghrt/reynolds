@@ -145,14 +145,14 @@
 /*Sets the background color and font color for the email address textbox*/
 .qp_email_address_text {
     background-color: white;
-    color: black;
+    color: black; border-radius:5px!important; height:35px; font-size:12px;
 }
 
 /*Sets the background color and font color for the initial question textbox*/
 .qp_initial_question_text {
     background-color: white;
     color: black;
-	margin-top:3em;
+	margin-top:3em; border-radius:5px; 
 }
 
 /*Sets the background color gradient, font color and border color for the Send button*/

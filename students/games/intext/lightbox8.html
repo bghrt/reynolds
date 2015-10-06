@@ -1,0 +1,13 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<p> This comes up a lot in MLA format.  What if you're citing a quote that came from one book, but is, in fact, a quote from another book?  Well the rule is, you always cite the book that you use, not the the book that the author used.  But to indicate that you're using a quoted source, add "qtd" to your in-text citation then add the page number of the book that you are citing.  </p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>

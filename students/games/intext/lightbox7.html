@@ -1,0 +1,14 @@
+<div class="lightboxWrap">
+<div><a href="#" onclick="return false;" class="lightBoxClose btn1"></a></div>
+<div class="closeLightbox"></div>
+<div class="statement statement1">
+<p>Yes.  Evenly double space.  Here's a suggestion: If you are using Microsoft Word to write your paper, click on the tiny little arrow on the right hand corner in the Paragraph menu.  Under &quot;line spacing,&quot; click double.  And then also check the box "Don't Add Space Between Paragraphs of the Same Style."  Checking that box is critical to ensuring your paper is evenly double spaced.  </p>
+
+<script>
+	$(".lightBoxClose").click(function () {
+		$("#lightBox").fadeOut('slow',function(){
+		$(".lightboxWrap").remove();
+		});
+	});
+</script>
+</div>
